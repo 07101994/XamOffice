@@ -24,14 +24,8 @@ namespace XamOffice.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
-			try
-			{
-				LoadApplication(new App());
-			}
-			catch (Exception exception)
-			{
-				
-			}
+
+			LoadApplication(new App());
 		}
 
 		private void AndroidEnvironmentOnUnhandledException(object sender, RaiseThrowableEventArgs e)
