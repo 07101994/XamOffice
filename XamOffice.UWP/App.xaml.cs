@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -30,6 +31,13 @@ namespace XamOffice.UWP
 		{
 			this.InitializeComponent();
 			this.Suspending += OnSuspending;
+
+			this.UnhandledException += App_UnhandledException;
+		}
+
+		void App_UnhandledException(object sender, Windows.UI.Xaml.UnhandledExceptionEventArgs e)
+		{
+			Debug.Write("Hello");
 		}
 
 		/// <summary>
@@ -102,6 +110,15 @@ namespace XamOffice.UWP
 			var deferral = e.SuspendingOperation.GetDeferral();
 			//TODO: Save application state and stop any background activity
 			deferral.Complete();
+		}
+
+		protected override void OnFileActivated(FileActivatedEventArgs args)
+		{
+			base.OnFileActivated(args);
+			var rootFrame = new Frame();
+			rootFrame.Navigate(typeof(MainPage), args);
+			Window.Current.Content = rootFrame;
+			Window.Current.Activate();
 		}
 	}
 }

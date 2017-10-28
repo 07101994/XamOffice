@@ -1664,6 +1664,1291 @@ namespace XamOffice.Droid
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::XamOffice.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::XamOffice.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Com.Syncfusion.Numerictextbox.Resource.String.library_name = global::XamOffice.Droid.Resource.String.library_name;
+			global::TEditor.Resource.Animation.abc_fade_in = global::XamOffice.Droid.Resource.Animation.abc_fade_in;
+			global::TEditor.Resource.Animation.abc_fade_out = global::XamOffice.Droid.Resource.Animation.abc_fade_out;
+			global::TEditor.Resource.Animation.abc_grow_fade_in_from_bottom = global::XamOffice.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::TEditor.Resource.Animation.abc_popup_enter = global::XamOffice.Droid.Resource.Animation.abc_popup_enter;
+			global::TEditor.Resource.Animation.abc_popup_exit = global::XamOffice.Droid.Resource.Animation.abc_popup_exit;
+			global::TEditor.Resource.Animation.abc_shrink_fade_out_from_bottom = global::XamOffice.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::TEditor.Resource.Animation.abc_slide_in_bottom = global::XamOffice.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::TEditor.Resource.Animation.abc_slide_in_top = global::XamOffice.Droid.Resource.Animation.abc_slide_in_top;
+			global::TEditor.Resource.Animation.abc_slide_out_bottom = global::XamOffice.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::TEditor.Resource.Animation.abc_slide_out_top = global::XamOffice.Droid.Resource.Animation.abc_slide_out_top;
+			global::TEditor.Resource.Attribute.actionBarDivider = global::XamOffice.Droid.Resource.Attribute.actionBarDivider;
+			global::TEditor.Resource.Attribute.actionBarItemBackground = global::XamOffice.Droid.Resource.Attribute.actionBarItemBackground;
+			global::TEditor.Resource.Attribute.actionBarPopupTheme = global::XamOffice.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::TEditor.Resource.Attribute.actionBarSize = global::XamOffice.Droid.Resource.Attribute.actionBarSize;
+			global::TEditor.Resource.Attribute.actionBarSplitStyle = global::XamOffice.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::TEditor.Resource.Attribute.actionBarStyle = global::XamOffice.Droid.Resource.Attribute.actionBarStyle;
+			global::TEditor.Resource.Attribute.actionBarTabBarStyle = global::XamOffice.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::TEditor.Resource.Attribute.actionBarTabStyle = global::XamOffice.Droid.Resource.Attribute.actionBarTabStyle;
+			global::TEditor.Resource.Attribute.actionBarTabTextStyle = global::XamOffice.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::TEditor.Resource.Attribute.actionBarTheme = global::XamOffice.Droid.Resource.Attribute.actionBarTheme;
+			global::TEditor.Resource.Attribute.actionBarWidgetTheme = global::XamOffice.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::TEditor.Resource.Attribute.actionButtonStyle = global::XamOffice.Droid.Resource.Attribute.actionButtonStyle;
+			global::TEditor.Resource.Attribute.actionDropDownStyle = global::XamOffice.Droid.Resource.Attribute.actionDropDownStyle;
+			global::TEditor.Resource.Attribute.actionLayout = global::XamOffice.Droid.Resource.Attribute.actionLayout;
+			global::TEditor.Resource.Attribute.actionMenuTextAppearance = global::XamOffice.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::TEditor.Resource.Attribute.actionMenuTextColor = global::XamOffice.Droid.Resource.Attribute.actionMenuTextColor;
+			global::TEditor.Resource.Attribute.actionModeBackground = global::XamOffice.Droid.Resource.Attribute.actionModeBackground;
+			global::TEditor.Resource.Attribute.actionModeCloseButtonStyle = global::XamOffice.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::TEditor.Resource.Attribute.actionModeCloseDrawable = global::XamOffice.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::TEditor.Resource.Attribute.actionModeCopyDrawable = global::XamOffice.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::TEditor.Resource.Attribute.actionModeCutDrawable = global::XamOffice.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::TEditor.Resource.Attribute.actionModeFindDrawable = global::XamOffice.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::TEditor.Resource.Attribute.actionModePasteDrawable = global::XamOffice.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::TEditor.Resource.Attribute.actionModePopupWindowStyle = global::XamOffice.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::TEditor.Resource.Attribute.actionModeSelectAllDrawable = global::XamOffice.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::TEditor.Resource.Attribute.actionModeShareDrawable = global::XamOffice.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::TEditor.Resource.Attribute.actionModeSplitBackground = global::XamOffice.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::TEditor.Resource.Attribute.actionModeStyle = global::XamOffice.Droid.Resource.Attribute.actionModeStyle;
+			global::TEditor.Resource.Attribute.actionModeWebSearchDrawable = global::XamOffice.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::TEditor.Resource.Attribute.actionOverflowButtonStyle = global::XamOffice.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::TEditor.Resource.Attribute.actionOverflowMenuStyle = global::XamOffice.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::TEditor.Resource.Attribute.actionProviderClass = global::XamOffice.Droid.Resource.Attribute.actionProviderClass;
+			global::TEditor.Resource.Attribute.actionViewClass = global::XamOffice.Droid.Resource.Attribute.actionViewClass;
+			global::TEditor.Resource.Attribute.activityChooserViewStyle = global::XamOffice.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::TEditor.Resource.Attribute.alertDialogButtonGroupStyle = global::XamOffice.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::TEditor.Resource.Attribute.alertDialogCenterButtons = global::XamOffice.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::TEditor.Resource.Attribute.alertDialogStyle = global::XamOffice.Droid.Resource.Attribute.alertDialogStyle;
+			global::TEditor.Resource.Attribute.alertDialogTheme = global::XamOffice.Droid.Resource.Attribute.alertDialogTheme;
+			global::TEditor.Resource.Attribute.allowStacking = global::XamOffice.Droid.Resource.Attribute.allowStacking;
+			global::TEditor.Resource.Attribute.arrowHeadLength = global::XamOffice.Droid.Resource.Attribute.arrowHeadLength;
+			global::TEditor.Resource.Attribute.arrowShaftLength = global::XamOffice.Droid.Resource.Attribute.arrowShaftLength;
+			global::TEditor.Resource.Attribute.autoCompleteTextViewStyle = global::XamOffice.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::TEditor.Resource.Attribute.background = global::XamOffice.Droid.Resource.Attribute.background;
+			global::TEditor.Resource.Attribute.backgroundSplit = global::XamOffice.Droid.Resource.Attribute.backgroundSplit;
+			global::TEditor.Resource.Attribute.backgroundStacked = global::XamOffice.Droid.Resource.Attribute.backgroundStacked;
+			global::TEditor.Resource.Attribute.backgroundTint = global::XamOffice.Droid.Resource.Attribute.backgroundTint;
+			global::TEditor.Resource.Attribute.backgroundTintMode = global::XamOffice.Droid.Resource.Attribute.backgroundTintMode;
+			global::TEditor.Resource.Attribute.barLength = global::XamOffice.Droid.Resource.Attribute.barLength;
+			global::TEditor.Resource.Attribute.borderlessButtonStyle = global::XamOffice.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::TEditor.Resource.Attribute.buttonBarButtonStyle = global::XamOffice.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::TEditor.Resource.Attribute.buttonBarNegativeButtonStyle = global::XamOffice.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::TEditor.Resource.Attribute.buttonBarNeutralButtonStyle = global::XamOffice.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::TEditor.Resource.Attribute.buttonBarPositiveButtonStyle = global::XamOffice.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::TEditor.Resource.Attribute.buttonBarStyle = global::XamOffice.Droid.Resource.Attribute.buttonBarStyle;
+			global::TEditor.Resource.Attribute.buttonPanelSideLayout = global::XamOffice.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::TEditor.Resource.Attribute.buttonStyle = global::XamOffice.Droid.Resource.Attribute.buttonStyle;
+			global::TEditor.Resource.Attribute.buttonStyleSmall = global::XamOffice.Droid.Resource.Attribute.buttonStyleSmall;
+			global::TEditor.Resource.Attribute.buttonTint = global::XamOffice.Droid.Resource.Attribute.buttonTint;
+			global::TEditor.Resource.Attribute.buttonTintMode = global::XamOffice.Droid.Resource.Attribute.buttonTintMode;
+			global::TEditor.Resource.Attribute.checkboxStyle = global::XamOffice.Droid.Resource.Attribute.checkboxStyle;
+			global::TEditor.Resource.Attribute.checkedTextViewStyle = global::XamOffice.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::TEditor.Resource.Attribute.closeIcon = global::XamOffice.Droid.Resource.Attribute.closeIcon;
+			global::TEditor.Resource.Attribute.closeItemLayout = global::XamOffice.Droid.Resource.Attribute.closeItemLayout;
+			global::TEditor.Resource.Attribute.collapseContentDescription = global::XamOffice.Droid.Resource.Attribute.collapseContentDescription;
+			global::TEditor.Resource.Attribute.collapseIcon = global::XamOffice.Droid.Resource.Attribute.collapseIcon;
+			global::TEditor.Resource.Attribute.color = global::XamOffice.Droid.Resource.Attribute.color;
+			global::TEditor.Resource.Attribute.colorAccent = global::XamOffice.Droid.Resource.Attribute.colorAccent;
+			global::TEditor.Resource.Attribute.colorButtonNormal = global::XamOffice.Droid.Resource.Attribute.colorButtonNormal;
+			global::TEditor.Resource.Attribute.colorControlActivated = global::XamOffice.Droid.Resource.Attribute.colorControlActivated;
+			global::TEditor.Resource.Attribute.colorControlHighlight = global::XamOffice.Droid.Resource.Attribute.colorControlHighlight;
+			global::TEditor.Resource.Attribute.colorControlNormal = global::XamOffice.Droid.Resource.Attribute.colorControlNormal;
+			global::TEditor.Resource.Attribute.colorPrimary = global::XamOffice.Droid.Resource.Attribute.colorPrimary;
+			global::TEditor.Resource.Attribute.colorPrimaryDark = global::XamOffice.Droid.Resource.Attribute.colorPrimaryDark;
+			global::TEditor.Resource.Attribute.colorSwitchThumbNormal = global::XamOffice.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::TEditor.Resource.Attribute.commitIcon = global::XamOffice.Droid.Resource.Attribute.commitIcon;
+			global::TEditor.Resource.Attribute.contentInsetEnd = global::XamOffice.Droid.Resource.Attribute.contentInsetEnd;
+			global::TEditor.Resource.Attribute.contentInsetLeft = global::XamOffice.Droid.Resource.Attribute.contentInsetLeft;
+			global::TEditor.Resource.Attribute.contentInsetRight = global::XamOffice.Droid.Resource.Attribute.contentInsetRight;
+			global::TEditor.Resource.Attribute.contentInsetStart = global::XamOffice.Droid.Resource.Attribute.contentInsetStart;
+			global::TEditor.Resource.Attribute.controlBackground = global::XamOffice.Droid.Resource.Attribute.controlBackground;
+			global::TEditor.Resource.Attribute.customNavigationLayout = global::XamOffice.Droid.Resource.Attribute.customNavigationLayout;
+			global::TEditor.Resource.Attribute.defaultQueryHint = global::XamOffice.Droid.Resource.Attribute.defaultQueryHint;
+			global::TEditor.Resource.Attribute.dialogPreferredPadding = global::XamOffice.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::TEditor.Resource.Attribute.dialogTheme = global::XamOffice.Droid.Resource.Attribute.dialogTheme;
+			global::TEditor.Resource.Attribute.displayOptions = global::XamOffice.Droid.Resource.Attribute.displayOptions;
+			global::TEditor.Resource.Attribute.divider = global::XamOffice.Droid.Resource.Attribute.divider;
+			global::TEditor.Resource.Attribute.dividerHorizontal = global::XamOffice.Droid.Resource.Attribute.dividerHorizontal;
+			global::TEditor.Resource.Attribute.dividerPadding = global::XamOffice.Droid.Resource.Attribute.dividerPadding;
+			global::TEditor.Resource.Attribute.dividerVertical = global::XamOffice.Droid.Resource.Attribute.dividerVertical;
+			global::TEditor.Resource.Attribute.drawableSize = global::XamOffice.Droid.Resource.Attribute.drawableSize;
+			global::TEditor.Resource.Attribute.drawerArrowStyle = global::XamOffice.Droid.Resource.Attribute.drawerArrowStyle;
+			global::TEditor.Resource.Attribute.dropDownListViewStyle = global::XamOffice.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::TEditor.Resource.Attribute.dropdownListPreferredItemHeight = global::XamOffice.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::TEditor.Resource.Attribute.editTextBackground = global::XamOffice.Droid.Resource.Attribute.editTextBackground;
+			global::TEditor.Resource.Attribute.editTextColor = global::XamOffice.Droid.Resource.Attribute.editTextColor;
+			global::TEditor.Resource.Attribute.editTextStyle = global::XamOffice.Droid.Resource.Attribute.editTextStyle;
+			global::TEditor.Resource.Attribute.elevation = global::XamOffice.Droid.Resource.Attribute.elevation;
+			global::TEditor.Resource.Attribute.expandActivityOverflowButtonDrawable = global::XamOffice.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::TEditor.Resource.Attribute.gapBetweenBars = global::XamOffice.Droid.Resource.Attribute.gapBetweenBars;
+			global::TEditor.Resource.Attribute.goIcon = global::XamOffice.Droid.Resource.Attribute.goIcon;
+			global::TEditor.Resource.Attribute.height = global::XamOffice.Droid.Resource.Attribute.height;
+			global::TEditor.Resource.Attribute.hideOnContentScroll = global::XamOffice.Droid.Resource.Attribute.hideOnContentScroll;
+			global::TEditor.Resource.Attribute.homeAsUpIndicator = global::XamOffice.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::TEditor.Resource.Attribute.homeLayout = global::XamOffice.Droid.Resource.Attribute.homeLayout;
+			global::TEditor.Resource.Attribute.icon = global::XamOffice.Droid.Resource.Attribute.icon;
+			global::TEditor.Resource.Attribute.iconifiedByDefault = global::XamOffice.Droid.Resource.Attribute.iconifiedByDefault;
+			global::TEditor.Resource.Attribute.imageButtonStyle = global::XamOffice.Droid.Resource.Attribute.imageButtonStyle;
+			global::TEditor.Resource.Attribute.indeterminateProgressStyle = global::XamOffice.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::TEditor.Resource.Attribute.initialActivityCount = global::XamOffice.Droid.Resource.Attribute.initialActivityCount;
+			global::TEditor.Resource.Attribute.isLightTheme = global::XamOffice.Droid.Resource.Attribute.isLightTheme;
+			global::TEditor.Resource.Attribute.itemPadding = global::XamOffice.Droid.Resource.Attribute.itemPadding;
+			global::TEditor.Resource.Attribute.layout = global::XamOffice.Droid.Resource.Attribute.layout;
+			global::TEditor.Resource.Attribute.listChoiceBackgroundIndicator = global::XamOffice.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::TEditor.Resource.Attribute.listDividerAlertDialog = global::XamOffice.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::TEditor.Resource.Attribute.listItemLayout = global::XamOffice.Droid.Resource.Attribute.listItemLayout;
+			global::TEditor.Resource.Attribute.listLayout = global::XamOffice.Droid.Resource.Attribute.listLayout;
+			global::TEditor.Resource.Attribute.listPopupWindowStyle = global::XamOffice.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::TEditor.Resource.Attribute.listPreferredItemHeight = global::XamOffice.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::TEditor.Resource.Attribute.listPreferredItemHeightLarge = global::XamOffice.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::TEditor.Resource.Attribute.listPreferredItemHeightSmall = global::XamOffice.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::TEditor.Resource.Attribute.listPreferredItemPaddingLeft = global::XamOffice.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::TEditor.Resource.Attribute.listPreferredItemPaddingRight = global::XamOffice.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::TEditor.Resource.Attribute.logo = global::XamOffice.Droid.Resource.Attribute.logo;
+			global::TEditor.Resource.Attribute.logoDescription = global::XamOffice.Droid.Resource.Attribute.logoDescription;
+			global::TEditor.Resource.Attribute.maxButtonHeight = global::XamOffice.Droid.Resource.Attribute.maxButtonHeight;
+			global::TEditor.Resource.Attribute.measureWithLargestChild = global::XamOffice.Droid.Resource.Attribute.measureWithLargestChild;
+			global::TEditor.Resource.Attribute.multiChoiceItemLayout = global::XamOffice.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::TEditor.Resource.Attribute.navigationContentDescription = global::XamOffice.Droid.Resource.Attribute.navigationContentDescription;
+			global::TEditor.Resource.Attribute.navigationIcon = global::XamOffice.Droid.Resource.Attribute.navigationIcon;
+			global::TEditor.Resource.Attribute.navigationMode = global::XamOffice.Droid.Resource.Attribute.navigationMode;
+			global::TEditor.Resource.Attribute.overlapAnchor = global::XamOffice.Droid.Resource.Attribute.overlapAnchor;
+			global::TEditor.Resource.Attribute.paddingEnd = global::XamOffice.Droid.Resource.Attribute.paddingEnd;
+			global::TEditor.Resource.Attribute.paddingStart = global::XamOffice.Droid.Resource.Attribute.paddingStart;
+			global::TEditor.Resource.Attribute.panelBackground = global::XamOffice.Droid.Resource.Attribute.panelBackground;
+			global::TEditor.Resource.Attribute.panelMenuListTheme = global::XamOffice.Droid.Resource.Attribute.panelMenuListTheme;
+			global::TEditor.Resource.Attribute.panelMenuListWidth = global::XamOffice.Droid.Resource.Attribute.panelMenuListWidth;
+			global::TEditor.Resource.Attribute.popupMenuStyle = global::XamOffice.Droid.Resource.Attribute.popupMenuStyle;
+			global::TEditor.Resource.Attribute.popupTheme = global::XamOffice.Droid.Resource.Attribute.popupTheme;
+			global::TEditor.Resource.Attribute.popupWindowStyle = global::XamOffice.Droid.Resource.Attribute.popupWindowStyle;
+			global::TEditor.Resource.Attribute.preserveIconSpacing = global::XamOffice.Droid.Resource.Attribute.preserveIconSpacing;
+			global::TEditor.Resource.Attribute.progressBarPadding = global::XamOffice.Droid.Resource.Attribute.progressBarPadding;
+			global::TEditor.Resource.Attribute.progressBarStyle = global::XamOffice.Droid.Resource.Attribute.progressBarStyle;
+			global::TEditor.Resource.Attribute.queryBackground = global::XamOffice.Droid.Resource.Attribute.queryBackground;
+			global::TEditor.Resource.Attribute.queryHint = global::XamOffice.Droid.Resource.Attribute.queryHint;
+			global::TEditor.Resource.Attribute.radioButtonStyle = global::XamOffice.Droid.Resource.Attribute.radioButtonStyle;
+			global::TEditor.Resource.Attribute.ratingBarStyle = global::XamOffice.Droid.Resource.Attribute.ratingBarStyle;
+			global::TEditor.Resource.Attribute.ratingBarStyleIndicator = global::XamOffice.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::TEditor.Resource.Attribute.ratingBarStyleSmall = global::XamOffice.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::TEditor.Resource.Attribute.searchHintIcon = global::XamOffice.Droid.Resource.Attribute.searchHintIcon;
+			global::TEditor.Resource.Attribute.searchIcon = global::XamOffice.Droid.Resource.Attribute.searchIcon;
+			global::TEditor.Resource.Attribute.searchViewStyle = global::XamOffice.Droid.Resource.Attribute.searchViewStyle;
+			global::TEditor.Resource.Attribute.seekBarStyle = global::XamOffice.Droid.Resource.Attribute.seekBarStyle;
+			global::TEditor.Resource.Attribute.selectableItemBackground = global::XamOffice.Droid.Resource.Attribute.selectableItemBackground;
+			global::TEditor.Resource.Attribute.selectableItemBackgroundBorderless = global::XamOffice.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::TEditor.Resource.Attribute.showAsAction = global::XamOffice.Droid.Resource.Attribute.showAsAction;
+			global::TEditor.Resource.Attribute.showDividers = global::XamOffice.Droid.Resource.Attribute.showDividers;
+			global::TEditor.Resource.Attribute.showText = global::XamOffice.Droid.Resource.Attribute.showText;
+			global::TEditor.Resource.Attribute.singleChoiceItemLayout = global::XamOffice.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::TEditor.Resource.Attribute.spinBars = global::XamOffice.Droid.Resource.Attribute.spinBars;
+			global::TEditor.Resource.Attribute.spinnerDropDownItemStyle = global::XamOffice.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::TEditor.Resource.Attribute.spinnerStyle = global::XamOffice.Droid.Resource.Attribute.spinnerStyle;
+			global::TEditor.Resource.Attribute.splitTrack = global::XamOffice.Droid.Resource.Attribute.splitTrack;
+			global::TEditor.Resource.Attribute.srcCompat = global::XamOffice.Droid.Resource.Attribute.srcCompat;
+			global::TEditor.Resource.Attribute.state_above_anchor = global::XamOffice.Droid.Resource.Attribute.state_above_anchor;
+			global::TEditor.Resource.Attribute.submitBackground = global::XamOffice.Droid.Resource.Attribute.submitBackground;
+			global::TEditor.Resource.Attribute.subtitle = global::XamOffice.Droid.Resource.Attribute.subtitle;
+			global::TEditor.Resource.Attribute.subtitleTextAppearance = global::XamOffice.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::TEditor.Resource.Attribute.subtitleTextColor = global::XamOffice.Droid.Resource.Attribute.subtitleTextColor;
+			global::TEditor.Resource.Attribute.subtitleTextStyle = global::XamOffice.Droid.Resource.Attribute.subtitleTextStyle;
+			global::TEditor.Resource.Attribute.suggestionRowLayout = global::XamOffice.Droid.Resource.Attribute.suggestionRowLayout;
+			global::TEditor.Resource.Attribute.switchMinWidth = global::XamOffice.Droid.Resource.Attribute.switchMinWidth;
+			global::TEditor.Resource.Attribute.switchPadding = global::XamOffice.Droid.Resource.Attribute.switchPadding;
+			global::TEditor.Resource.Attribute.switchStyle = global::XamOffice.Droid.Resource.Attribute.switchStyle;
+			global::TEditor.Resource.Attribute.switchTextAppearance = global::XamOffice.Droid.Resource.Attribute.switchTextAppearance;
+			global::TEditor.Resource.Attribute.textAllCaps = global::XamOffice.Droid.Resource.Attribute.textAllCaps;
+			global::TEditor.Resource.Attribute.textAppearanceLargePopupMenu = global::XamOffice.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::TEditor.Resource.Attribute.textAppearanceListItem = global::XamOffice.Droid.Resource.Attribute.textAppearanceListItem;
+			global::TEditor.Resource.Attribute.textAppearanceListItemSmall = global::XamOffice.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::TEditor.Resource.Attribute.textAppearanceSearchResultSubtitle = global::XamOffice.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::TEditor.Resource.Attribute.textAppearanceSearchResultTitle = global::XamOffice.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::TEditor.Resource.Attribute.textAppearanceSmallPopupMenu = global::XamOffice.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::TEditor.Resource.Attribute.textColorAlertDialogListItem = global::XamOffice.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::TEditor.Resource.Attribute.textColorSearchUrl = global::XamOffice.Droid.Resource.Attribute.textColorSearchUrl;
+			global::TEditor.Resource.Attribute.theme = global::XamOffice.Droid.Resource.Attribute.theme;
+			global::TEditor.Resource.Attribute.thickness = global::XamOffice.Droid.Resource.Attribute.thickness;
+			global::TEditor.Resource.Attribute.thumbTextPadding = global::XamOffice.Droid.Resource.Attribute.thumbTextPadding;
+			global::TEditor.Resource.Attribute.title = global::XamOffice.Droid.Resource.Attribute.title;
+			global::TEditor.Resource.Attribute.titleMarginBottom = global::XamOffice.Droid.Resource.Attribute.titleMarginBottom;
+			global::TEditor.Resource.Attribute.titleMarginEnd = global::XamOffice.Droid.Resource.Attribute.titleMarginEnd;
+			global::TEditor.Resource.Attribute.titleMarginStart = global::XamOffice.Droid.Resource.Attribute.titleMarginStart;
+			global::TEditor.Resource.Attribute.titleMarginTop = global::XamOffice.Droid.Resource.Attribute.titleMarginTop;
+			global::TEditor.Resource.Attribute.titleMargins = global::XamOffice.Droid.Resource.Attribute.titleMargins;
+			global::TEditor.Resource.Attribute.titleTextAppearance = global::XamOffice.Droid.Resource.Attribute.titleTextAppearance;
+			global::TEditor.Resource.Attribute.titleTextColor = global::XamOffice.Droid.Resource.Attribute.titleTextColor;
+			global::TEditor.Resource.Attribute.titleTextStyle = global::XamOffice.Droid.Resource.Attribute.titleTextStyle;
+			global::TEditor.Resource.Attribute.toolbarNavigationButtonStyle = global::XamOffice.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::TEditor.Resource.Attribute.toolbarStyle = global::XamOffice.Droid.Resource.Attribute.toolbarStyle;
+			global::TEditor.Resource.Attribute.track = global::XamOffice.Droid.Resource.Attribute.track;
+			global::TEditor.Resource.Attribute.voiceIcon = global::XamOffice.Droid.Resource.Attribute.voiceIcon;
+			global::TEditor.Resource.Attribute.windowActionBar = global::XamOffice.Droid.Resource.Attribute.windowActionBar;
+			global::TEditor.Resource.Attribute.windowActionBarOverlay = global::XamOffice.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::TEditor.Resource.Attribute.windowActionModeOverlay = global::XamOffice.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::TEditor.Resource.Attribute.windowFixedHeightMajor = global::XamOffice.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::TEditor.Resource.Attribute.windowFixedHeightMinor = global::XamOffice.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::TEditor.Resource.Attribute.windowFixedWidthMajor = global::XamOffice.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::TEditor.Resource.Attribute.windowFixedWidthMinor = global::XamOffice.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::TEditor.Resource.Attribute.windowMinWidthMajor = global::XamOffice.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::TEditor.Resource.Attribute.windowMinWidthMinor = global::XamOffice.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::TEditor.Resource.Attribute.windowNoTitle = global::XamOffice.Droid.Resource.Attribute.windowNoTitle;
+			global::TEditor.Resource.Boolean.abc_action_bar_embed_tabs = global::XamOffice.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::TEditor.Resource.Boolean.abc_allow_stacked_button_bar = global::XamOffice.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::TEditor.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::XamOffice.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::TEditor.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::XamOffice.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::TEditor.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::XamOffice.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::TEditor.Resource.Color.abc_background_cache_hint_selector_material_dark = global::XamOffice.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::TEditor.Resource.Color.abc_background_cache_hint_selector_material_light = global::XamOffice.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::TEditor.Resource.Color.abc_color_highlight_material = global::XamOffice.Droid.Resource.Color.abc_color_highlight_material;
+			global::TEditor.Resource.Color.abc_input_method_navigation_guard = global::XamOffice.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::TEditor.Resource.Color.abc_primary_text_disable_only_material_dark = global::XamOffice.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::TEditor.Resource.Color.abc_primary_text_disable_only_material_light = global::XamOffice.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::TEditor.Resource.Color.abc_primary_text_material_dark = global::XamOffice.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::TEditor.Resource.Color.abc_primary_text_material_light = global::XamOffice.Droid.Resource.Color.abc_primary_text_material_light;
+			global::TEditor.Resource.Color.abc_search_url_text = global::XamOffice.Droid.Resource.Color.abc_search_url_text;
+			global::TEditor.Resource.Color.abc_search_url_text_normal = global::XamOffice.Droid.Resource.Color.abc_search_url_text_normal;
+			global::TEditor.Resource.Color.abc_search_url_text_pressed = global::XamOffice.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::TEditor.Resource.Color.abc_search_url_text_selected = global::XamOffice.Droid.Resource.Color.abc_search_url_text_selected;
+			global::TEditor.Resource.Color.abc_secondary_text_material_dark = global::XamOffice.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::TEditor.Resource.Color.abc_secondary_text_material_light = global::XamOffice.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::TEditor.Resource.Color.accent_material_dark = global::XamOffice.Droid.Resource.Color.accent_material_dark;
+			global::TEditor.Resource.Color.accent_material_light = global::XamOffice.Droid.Resource.Color.accent_material_light;
+			global::TEditor.Resource.Color.background_floating_material_dark = global::XamOffice.Droid.Resource.Color.background_floating_material_dark;
+			global::TEditor.Resource.Color.background_floating_material_light = global::XamOffice.Droid.Resource.Color.background_floating_material_light;
+			global::TEditor.Resource.Color.background_material_dark = global::XamOffice.Droid.Resource.Color.background_material_dark;
+			global::TEditor.Resource.Color.background_material_light = global::XamOffice.Droid.Resource.Color.background_material_light;
+			global::TEditor.Resource.Color.bright_foreground_disabled_material_dark = global::XamOffice.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::TEditor.Resource.Color.bright_foreground_disabled_material_light = global::XamOffice.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::TEditor.Resource.Color.bright_foreground_inverse_material_dark = global::XamOffice.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::TEditor.Resource.Color.bright_foreground_inverse_material_light = global::XamOffice.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::TEditor.Resource.Color.bright_foreground_material_dark = global::XamOffice.Droid.Resource.Color.bright_foreground_material_dark;
+			global::TEditor.Resource.Color.bright_foreground_material_light = global::XamOffice.Droid.Resource.Color.bright_foreground_material_light;
+			global::TEditor.Resource.Color.button_material_dark = global::XamOffice.Droid.Resource.Color.button_material_dark;
+			global::TEditor.Resource.Color.button_material_light = global::XamOffice.Droid.Resource.Color.button_material_light;
+			global::TEditor.Resource.Color.dim_foreground_disabled_material_dark = global::XamOffice.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::TEditor.Resource.Color.dim_foreground_disabled_material_light = global::XamOffice.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::TEditor.Resource.Color.dim_foreground_material_dark = global::XamOffice.Droid.Resource.Color.dim_foreground_material_dark;
+			global::TEditor.Resource.Color.dim_foreground_material_light = global::XamOffice.Droid.Resource.Color.dim_foreground_material_light;
+			global::TEditor.Resource.Color.foreground_material_dark = global::XamOffice.Droid.Resource.Color.foreground_material_dark;
+			global::TEditor.Resource.Color.foreground_material_light = global::XamOffice.Droid.Resource.Color.foreground_material_light;
+			global::TEditor.Resource.Color.highlighted_text_material_dark = global::XamOffice.Droid.Resource.Color.highlighted_text_material_dark;
+			global::TEditor.Resource.Color.highlighted_text_material_light = global::XamOffice.Droid.Resource.Color.highlighted_text_material_light;
+			global::TEditor.Resource.Color.material_blue_grey_800 = global::XamOffice.Droid.Resource.Color.material_blue_grey_800;
+			global::TEditor.Resource.Color.material_blue_grey_900 = global::XamOffice.Droid.Resource.Color.material_blue_grey_900;
+			global::TEditor.Resource.Color.material_blue_grey_950 = global::XamOffice.Droid.Resource.Color.material_blue_grey_950;
+			global::TEditor.Resource.Color.material_deep_teal_200 = global::XamOffice.Droid.Resource.Color.material_deep_teal_200;
+			global::TEditor.Resource.Color.material_deep_teal_500 = global::XamOffice.Droid.Resource.Color.material_deep_teal_500;
+			global::TEditor.Resource.Color.material_grey_100 = global::XamOffice.Droid.Resource.Color.material_grey_100;
+			global::TEditor.Resource.Color.material_grey_300 = global::XamOffice.Droid.Resource.Color.material_grey_300;
+			global::TEditor.Resource.Color.material_grey_50 = global::XamOffice.Droid.Resource.Color.material_grey_50;
+			global::TEditor.Resource.Color.material_grey_600 = global::XamOffice.Droid.Resource.Color.material_grey_600;
+			global::TEditor.Resource.Color.material_grey_800 = global::XamOffice.Droid.Resource.Color.material_grey_800;
+			global::TEditor.Resource.Color.material_grey_850 = global::XamOffice.Droid.Resource.Color.material_grey_850;
+			global::TEditor.Resource.Color.material_grey_900 = global::XamOffice.Droid.Resource.Color.material_grey_900;
+			global::TEditor.Resource.Color.primary_dark_material_dark = global::XamOffice.Droid.Resource.Color.primary_dark_material_dark;
+			global::TEditor.Resource.Color.primary_dark_material_light = global::XamOffice.Droid.Resource.Color.primary_dark_material_light;
+			global::TEditor.Resource.Color.primary_material_dark = global::XamOffice.Droid.Resource.Color.primary_material_dark;
+			global::TEditor.Resource.Color.primary_material_light = global::XamOffice.Droid.Resource.Color.primary_material_light;
+			global::TEditor.Resource.Color.primary_text_default_material_dark = global::XamOffice.Droid.Resource.Color.primary_text_default_material_dark;
+			global::TEditor.Resource.Color.primary_text_default_material_light = global::XamOffice.Droid.Resource.Color.primary_text_default_material_light;
+			global::TEditor.Resource.Color.primary_text_disabled_material_dark = global::XamOffice.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::TEditor.Resource.Color.primary_text_disabled_material_light = global::XamOffice.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::TEditor.Resource.Color.ripple_material_dark = global::XamOffice.Droid.Resource.Color.ripple_material_dark;
+			global::TEditor.Resource.Color.ripple_material_light = global::XamOffice.Droid.Resource.Color.ripple_material_light;
+			global::TEditor.Resource.Color.secondary_text_default_material_dark = global::XamOffice.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::TEditor.Resource.Color.secondary_text_default_material_light = global::XamOffice.Droid.Resource.Color.secondary_text_default_material_light;
+			global::TEditor.Resource.Color.secondary_text_disabled_material_dark = global::XamOffice.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::TEditor.Resource.Color.secondary_text_disabled_material_light = global::XamOffice.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::TEditor.Resource.Color.switch_thumb_disabled_material_dark = global::XamOffice.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::TEditor.Resource.Color.switch_thumb_disabled_material_light = global::XamOffice.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::TEditor.Resource.Color.switch_thumb_material_dark = global::XamOffice.Droid.Resource.Color.switch_thumb_material_dark;
+			global::TEditor.Resource.Color.switch_thumb_material_light = global::XamOffice.Droid.Resource.Color.switch_thumb_material_light;
+			global::TEditor.Resource.Color.switch_thumb_normal_material_dark = global::XamOffice.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::TEditor.Resource.Color.switch_thumb_normal_material_light = global::XamOffice.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::TEditor.Resource.Dimension.abc_action_bar_content_inset_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_default_height_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_default_padding_end_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_default_padding_start_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_progress_bar_size = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::TEditor.Resource.Dimension.abc_action_bar_stacked_max_height = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::TEditor.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::TEditor.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::TEditor.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::XamOffice.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::TEditor.Resource.Dimension.abc_action_button_min_height_material = global::XamOffice.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::TEditor.Resource.Dimension.abc_action_button_min_width_material = global::XamOffice.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::TEditor.Resource.Dimension.abc_action_button_min_width_overflow_material = global::XamOffice.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::TEditor.Resource.Dimension.abc_alert_dialog_button_bar_height = global::XamOffice.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::TEditor.Resource.Dimension.abc_button_inset_horizontal_material = global::XamOffice.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::TEditor.Resource.Dimension.abc_button_inset_vertical_material = global::XamOffice.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::TEditor.Resource.Dimension.abc_button_padding_horizontal_material = global::XamOffice.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::TEditor.Resource.Dimension.abc_button_padding_vertical_material = global::XamOffice.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::TEditor.Resource.Dimension.abc_config_prefDialogWidth = global::XamOffice.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::TEditor.Resource.Dimension.abc_control_corner_material = global::XamOffice.Droid.Resource.Dimension.abc_control_corner_material;
+			global::TEditor.Resource.Dimension.abc_control_inset_material = global::XamOffice.Droid.Resource.Dimension.abc_control_inset_material;
+			global::TEditor.Resource.Dimension.abc_control_padding_material = global::XamOffice.Droid.Resource.Dimension.abc_control_padding_material;
+			global::TEditor.Resource.Dimension.abc_dialog_fixed_height_major = global::XamOffice.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::TEditor.Resource.Dimension.abc_dialog_fixed_height_minor = global::XamOffice.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::TEditor.Resource.Dimension.abc_dialog_fixed_width_major = global::XamOffice.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::TEditor.Resource.Dimension.abc_dialog_fixed_width_minor = global::XamOffice.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::TEditor.Resource.Dimension.abc_dialog_min_width_major = global::XamOffice.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::TEditor.Resource.Dimension.abc_dialog_min_width_minor = global::XamOffice.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::TEditor.Resource.Dimension.abc_dialog_padding_material = global::XamOffice.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::TEditor.Resource.Dimension.abc_dialog_padding_top_material = global::XamOffice.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::TEditor.Resource.Dimension.abc_disabled_alpha_material_dark = global::XamOffice.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::TEditor.Resource.Dimension.abc_disabled_alpha_material_light = global::XamOffice.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::TEditor.Resource.Dimension.abc_dropdownitem_icon_width = global::XamOffice.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::TEditor.Resource.Dimension.abc_dropdownitem_text_padding_left = global::XamOffice.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::TEditor.Resource.Dimension.abc_dropdownitem_text_padding_right = global::XamOffice.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::TEditor.Resource.Dimension.abc_edit_text_inset_bottom_material = global::XamOffice.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::TEditor.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::XamOffice.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::TEditor.Resource.Dimension.abc_edit_text_inset_top_material = global::XamOffice.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::TEditor.Resource.Dimension.abc_floating_window_z = global::XamOffice.Droid.Resource.Dimension.abc_floating_window_z;
+			global::TEditor.Resource.Dimension.abc_list_item_padding_horizontal_material = global::XamOffice.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::TEditor.Resource.Dimension.abc_panel_menu_list_width = global::XamOffice.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::TEditor.Resource.Dimension.abc_search_view_preferred_width = global::XamOffice.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::TEditor.Resource.Dimension.abc_seekbar_track_background_height_material = global::XamOffice.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::TEditor.Resource.Dimension.abc_seekbar_track_progress_height_material = global::XamOffice.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::TEditor.Resource.Dimension.abc_select_dialog_padding_start_material = global::XamOffice.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::TEditor.Resource.Dimension.abc_switch_padding = global::XamOffice.Droid.Resource.Dimension.abc_switch_padding;
+			global::TEditor.Resource.Dimension.abc_text_size_body_1_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::TEditor.Resource.Dimension.abc_text_size_body_2_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::TEditor.Resource.Dimension.abc_text_size_button_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::TEditor.Resource.Dimension.abc_text_size_caption_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::TEditor.Resource.Dimension.abc_text_size_display_1_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::TEditor.Resource.Dimension.abc_text_size_display_2_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::TEditor.Resource.Dimension.abc_text_size_display_3_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::TEditor.Resource.Dimension.abc_text_size_display_4_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::TEditor.Resource.Dimension.abc_text_size_headline_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::TEditor.Resource.Dimension.abc_text_size_large_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::TEditor.Resource.Dimension.abc_text_size_medium_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::TEditor.Resource.Dimension.abc_text_size_menu_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::TEditor.Resource.Dimension.abc_text_size_small_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::TEditor.Resource.Dimension.abc_text_size_subhead_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::TEditor.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::XamOffice.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::TEditor.Resource.Dimension.abc_text_size_title_material = global::XamOffice.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::TEditor.Resource.Dimension.abc_text_size_title_material_toolbar = global::XamOffice.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::TEditor.Resource.Dimension.disabled_alpha_material_dark = global::XamOffice.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::TEditor.Resource.Dimension.disabled_alpha_material_light = global::XamOffice.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::TEditor.Resource.Dimension.highlight_alpha_material_colored = global::XamOffice.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::TEditor.Resource.Dimension.highlight_alpha_material_dark = global::XamOffice.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::TEditor.Resource.Dimension.highlight_alpha_material_light = global::XamOffice.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::TEditor.Resource.Dimension.notification_large_icon_height = global::XamOffice.Droid.Resource.Dimension.notification_large_icon_height;
+			global::TEditor.Resource.Dimension.notification_large_icon_width = global::XamOffice.Droid.Resource.Dimension.notification_large_icon_width;
+			global::TEditor.Resource.Dimension.notification_subtext_size = global::XamOffice.Droid.Resource.Dimension.notification_subtext_size;
+			global::TEditor.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_action_bar_item_background_material = global::XamOffice.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::TEditor.Resource.Drawable.abc_btn_borderless_material = global::XamOffice.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::TEditor.Resource.Drawable.abc_btn_check_material = global::XamOffice.Droid.Resource.Drawable.abc_btn_check_material;
+			global::TEditor.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::XamOffice.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::TEditor.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::XamOffice.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::TEditor.Resource.Drawable.abc_btn_colored_material = global::XamOffice.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::TEditor.Resource.Drawable.abc_btn_default_mtrl_shape = global::XamOffice.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::TEditor.Resource.Drawable.abc_btn_radio_material = global::XamOffice.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::TEditor.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::XamOffice.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::TEditor.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::XamOffice.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::TEditor.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::XamOffice.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::TEditor.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::XamOffice.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::TEditor.Resource.Drawable.abc_cab_background_internal_bg = global::XamOffice.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::TEditor.Resource.Drawable.abc_cab_background_top_material = global::XamOffice.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::TEditor.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_control_background_material = global::XamOffice.Droid.Resource.Drawable.abc_control_background_material;
+			global::TEditor.Resource.Drawable.abc_edit_text_material = global::XamOffice.Droid.Resource.Drawable.abc_edit_text_material;
+			global::TEditor.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::XamOffice.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::TEditor.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::XamOffice.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::TEditor.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_ic_star_black_16dp = global::XamOffice.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::TEditor.Resource.Drawable.abc_ic_star_black_36dp = global::XamOffice.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::TEditor.Resource.Drawable.abc_ic_star_half_black_16dp = global::XamOffice.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::TEditor.Resource.Drawable.abc_ic_star_half_black_36dp = global::XamOffice.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::TEditor.Resource.Drawable.abc_item_background_holo_dark = global::XamOffice.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::TEditor.Resource.Drawable.abc_item_background_holo_light = global::XamOffice.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::TEditor.Resource.Drawable.abc_list_divider_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_list_focused_holo = global::XamOffice.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::TEditor.Resource.Drawable.abc_list_longpressed_holo = global::XamOffice.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::TEditor.Resource.Drawable.abc_list_pressed_holo_dark = global::XamOffice.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::TEditor.Resource.Drawable.abc_list_pressed_holo_light = global::XamOffice.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::TEditor.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::XamOffice.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::TEditor.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::XamOffice.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::TEditor.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::XamOffice.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::TEditor.Resource.Drawable.abc_list_selector_disabled_holo_light = global::XamOffice.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::TEditor.Resource.Drawable.abc_list_selector_holo_dark = global::XamOffice.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::TEditor.Resource.Drawable.abc_list_selector_holo_light = global::XamOffice.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::TEditor.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::XamOffice.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::TEditor.Resource.Drawable.abc_popup_background_mtrl_mult = global::XamOffice.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::TEditor.Resource.Drawable.abc_ratingbar_indicator_material = global::XamOffice.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::TEditor.Resource.Drawable.abc_ratingbar_small_material = global::XamOffice.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::TEditor.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::XamOffice.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::TEditor.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::XamOffice.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::TEditor.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_seekbar_thumb_material = global::XamOffice.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::TEditor.Resource.Drawable.abc_seekbar_track_material = global::XamOffice.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::TEditor.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::XamOffice.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::TEditor.Resource.Drawable.abc_spinner_textfield_background_material = global::XamOffice.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::TEditor.Resource.Drawable.abc_switch_thumb_material = global::XamOffice.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::TEditor.Resource.Drawable.abc_switch_track_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_tab_indicator_material = global::XamOffice.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::TEditor.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_text_cursor_material = global::XamOffice.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::TEditor.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::XamOffice.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::TEditor.Resource.Drawable.abc_textfield_search_material = global::XamOffice.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::TEditor.Resource.Drawable.MenuDiscard = global::XamOffice.Droid.Resource.Drawable.MenuDiscard;
+			global::TEditor.Resource.Drawable.MenuSave = global::XamOffice.Droid.Resource.Drawable.MenuSave;
+			global::TEditor.Resource.Drawable.notification_template_icon_bg = global::XamOffice.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::TEditor.Resource.Drawable.ZSSbgcolor = global::XamOffice.Droid.Resource.Drawable.ZSSbgcolor;
+			global::TEditor.Resource.Drawable.ZSSbold = global::XamOffice.Droid.Resource.Drawable.ZSSbold;
+			global::TEditor.Resource.Drawable.ZSScenterjustify = global::XamOffice.Droid.Resource.Drawable.ZSScenterjustify;
+			global::TEditor.Resource.Drawable.ZSSclearstyle = global::XamOffice.Droid.Resource.Drawable.ZSSclearstyle;
+			global::TEditor.Resource.Drawable.ZSSforcejustify = global::XamOffice.Droid.Resource.Drawable.ZSSforcejustify;
+			global::TEditor.Resource.Drawable.ZSSh1 = global::XamOffice.Droid.Resource.Drawable.ZSSh1;
+			global::TEditor.Resource.Drawable.ZSSh2 = global::XamOffice.Droid.Resource.Drawable.ZSSh2;
+			global::TEditor.Resource.Drawable.ZSSh3 = global::XamOffice.Droid.Resource.Drawable.ZSSh3;
+			global::TEditor.Resource.Drawable.ZSSh4 = global::XamOffice.Droid.Resource.Drawable.ZSSh4;
+			global::TEditor.Resource.Drawable.ZSSh5 = global::XamOffice.Droid.Resource.Drawable.ZSSh5;
+			global::TEditor.Resource.Drawable.ZSSh6 = global::XamOffice.Droid.Resource.Drawable.ZSSh6;
+			global::TEditor.Resource.Drawable.ZSShorizontalrule = global::XamOffice.Droid.Resource.Drawable.ZSShorizontalrule;
+			global::TEditor.Resource.Drawable.ZSSimage = global::XamOffice.Droid.Resource.Drawable.ZSSimage;
+			global::TEditor.Resource.Drawable.ZSSindent = global::XamOffice.Droid.Resource.Drawable.ZSSindent;
+			global::TEditor.Resource.Drawable.ZSSinsertkeyword = global::XamOffice.Droid.Resource.Drawable.ZSSinsertkeyword;
+			global::TEditor.Resource.Drawable.ZSSitalic = global::XamOffice.Droid.Resource.Drawable.ZSSitalic;
+			global::TEditor.Resource.Drawable.ZSSkeyboard = global::XamOffice.Droid.Resource.Drawable.ZSSkeyboard;
+			global::TEditor.Resource.Drawable.ZSSleftjustify = global::XamOffice.Droid.Resource.Drawable.ZSSleftjustify;
+			global::TEditor.Resource.Drawable.ZSSlink = global::XamOffice.Droid.Resource.Drawable.ZSSlink;
+			global::TEditor.Resource.Drawable.ZSSorderedlist = global::XamOffice.Droid.Resource.Drawable.ZSSorderedlist;
+			global::TEditor.Resource.Drawable.ZSSoutdent = global::XamOffice.Droid.Resource.Drawable.ZSSoutdent;
+			global::TEditor.Resource.Drawable.ZSSparagraph = global::XamOffice.Droid.Resource.Drawable.ZSSparagraph;
+			global::TEditor.Resource.Drawable.ZSSpicker = global::XamOffice.Droid.Resource.Drawable.ZSSpicker;
+			global::TEditor.Resource.Drawable.ZSSquicklink = global::XamOffice.Droid.Resource.Drawable.ZSSquicklink;
+			global::TEditor.Resource.Drawable.ZSSredo = global::XamOffice.Droid.Resource.Drawable.ZSSredo;
+			global::TEditor.Resource.Drawable.ZSSrightjustify = global::XamOffice.Droid.Resource.Drawable.ZSSrightjustify;
+			global::TEditor.Resource.Drawable.ZSSstrikethrough = global::XamOffice.Droid.Resource.Drawable.ZSSstrikethrough;
+			global::TEditor.Resource.Drawable.ZSSsubscript = global::XamOffice.Droid.Resource.Drawable.ZSSsubscript;
+			global::TEditor.Resource.Drawable.ZSSsuperscript = global::XamOffice.Droid.Resource.Drawable.ZSSsuperscript;
+			global::TEditor.Resource.Drawable.ZSStable = global::XamOffice.Droid.Resource.Drawable.ZSStable;
+			global::TEditor.Resource.Drawable.ZSStextcolor = global::XamOffice.Droid.Resource.Drawable.ZSStextcolor;
+			global::TEditor.Resource.Drawable.ZSSunderline = global::XamOffice.Droid.Resource.Drawable.ZSSunderline;
+			global::TEditor.Resource.Drawable.ZSSundo = global::XamOffice.Droid.Resource.Drawable.ZSSundo;
+			global::TEditor.Resource.Drawable.ZSSunlink = global::XamOffice.Droid.Resource.Drawable.ZSSunlink;
+			global::TEditor.Resource.Drawable.ZSSunorderedlist = global::XamOffice.Droid.Resource.Drawable.ZSSunorderedlist;
+			global::TEditor.Resource.Drawable.ZSSviewsource = global::XamOffice.Droid.Resource.Drawable.ZSSviewsource;
+			global::TEditor.Resource.Id.EditorWebView = global::XamOffice.Droid.Resource.Id.EditorWebView;
+			global::TEditor.Resource.Id.RootRelativeLayout = global::XamOffice.Droid.Resource.Id.RootRelativeLayout;
+			global::TEditor.Resource.Id.ToolbarItemsLayout = global::XamOffice.Droid.Resource.Id.ToolbarItemsLayout;
+			global::TEditor.Resource.Id.ToolbarLayout = global::XamOffice.Droid.Resource.Id.ToolbarLayout;
+			global::TEditor.Resource.Id.TopToolbar = global::XamOffice.Droid.Resource.Id.TopToolbar;
+			global::TEditor.Resource.Id.action0 = global::XamOffice.Droid.Resource.Id.action0;
+			global::TEditor.Resource.Id.action_bar = global::XamOffice.Droid.Resource.Id.action_bar;
+			global::TEditor.Resource.Id.action_bar_activity_content = global::XamOffice.Droid.Resource.Id.action_bar_activity_content;
+			global::TEditor.Resource.Id.action_bar_container = global::XamOffice.Droid.Resource.Id.action_bar_container;
+			global::TEditor.Resource.Id.action_bar_root = global::XamOffice.Droid.Resource.Id.action_bar_root;
+			global::TEditor.Resource.Id.action_bar_spinner = global::XamOffice.Droid.Resource.Id.action_bar_spinner;
+			global::TEditor.Resource.Id.action_bar_subtitle = global::XamOffice.Droid.Resource.Id.action_bar_subtitle;
+			global::TEditor.Resource.Id.action_bar_title = global::XamOffice.Droid.Resource.Id.action_bar_title;
+			global::TEditor.Resource.Id.action_context_bar = global::XamOffice.Droid.Resource.Id.action_context_bar;
+			global::TEditor.Resource.Id.action_divider = global::XamOffice.Droid.Resource.Id.action_divider;
+			global::TEditor.Resource.Id.action_menu_divider = global::XamOffice.Droid.Resource.Id.action_menu_divider;
+			global::TEditor.Resource.Id.action_menu_presenter = global::XamOffice.Droid.Resource.Id.action_menu_presenter;
+			global::TEditor.Resource.Id.action_mode_bar = global::XamOffice.Droid.Resource.Id.action_mode_bar;
+			global::TEditor.Resource.Id.action_mode_bar_stub = global::XamOffice.Droid.Resource.Id.action_mode_bar_stub;
+			global::TEditor.Resource.Id.action_mode_close_button = global::XamOffice.Droid.Resource.Id.action_mode_close_button;
+			global::TEditor.Resource.Id.activity_chooser_view_content = global::XamOffice.Droid.Resource.Id.activity_chooser_view_content;
+			global::TEditor.Resource.Id.alertTitle = global::XamOffice.Droid.Resource.Id.alertTitle;
+			global::TEditor.Resource.Id.always = global::XamOffice.Droid.Resource.Id.always;
+			global::TEditor.Resource.Id.beginning = global::XamOffice.Droid.Resource.Id.beginning;
+			global::TEditor.Resource.Id.buttonPanel = global::XamOffice.Droid.Resource.Id.buttonPanel;
+			global::TEditor.Resource.Id.cancel_action = global::XamOffice.Droid.Resource.Id.cancel_action;
+			global::TEditor.Resource.Id.checkbox = global::XamOffice.Droid.Resource.Id.checkbox;
+			global::TEditor.Resource.Id.chronometer = global::XamOffice.Droid.Resource.Id.chronometer;
+			global::TEditor.Resource.Id.collapseActionView = global::XamOffice.Droid.Resource.Id.collapseActionView;
+			global::TEditor.Resource.Id.color_picker_view = global::XamOffice.Droid.Resource.Id.color_picker_view;
+			global::TEditor.Resource.Id.contentPanel = global::XamOffice.Droid.Resource.Id.contentPanel;
+			global::TEditor.Resource.Id.custom = global::XamOffice.Droid.Resource.Id.custom;
+			global::TEditor.Resource.Id.customPanel = global::XamOffice.Droid.Resource.Id.customPanel;
+			global::TEditor.Resource.Id.decor_content_parent = global::XamOffice.Droid.Resource.Id.decor_content_parent;
+			global::TEditor.Resource.Id.default_activity_button = global::XamOffice.Droid.Resource.Id.default_activity_button;
+			global::TEditor.Resource.Id.disableHome = global::XamOffice.Droid.Resource.Id.disableHome;
+			global::TEditor.Resource.Id.edit_query = global::XamOffice.Droid.Resource.Id.edit_query;
+			global::TEditor.Resource.Id.end = global::XamOffice.Droid.Resource.Id.end;
+			global::TEditor.Resource.Id.end_padder = global::XamOffice.Droid.Resource.Id.end_padder;
+			global::TEditor.Resource.Id.expand_activities_button = global::XamOffice.Droid.Resource.Id.expand_activities_button;
+			global::TEditor.Resource.Id.expanded_menu = global::XamOffice.Droid.Resource.Id.expanded_menu;
+			global::TEditor.Resource.Id.home = global::XamOffice.Droid.Resource.Id.home;
+			global::TEditor.Resource.Id.homeAsUp = global::XamOffice.Droid.Resource.Id.homeAsUp;
+			global::TEditor.Resource.Id.icon = global::XamOffice.Droid.Resource.Id.icon;
+			global::TEditor.Resource.Id.ifRoom = global::XamOffice.Droid.Resource.Id.ifRoom;
+			global::TEditor.Resource.Id.image = global::XamOffice.Droid.Resource.Id.image;
+			global::TEditor.Resource.Id.info = global::XamOffice.Droid.Resource.Id.info;
+			global::TEditor.Resource.Id.line1 = global::XamOffice.Droid.Resource.Id.line1;
+			global::TEditor.Resource.Id.line3 = global::XamOffice.Droid.Resource.Id.line3;
+			global::TEditor.Resource.Id.listMode = global::XamOffice.Droid.Resource.Id.listMode;
+			global::TEditor.Resource.Id.list_item = global::XamOffice.Droid.Resource.Id.list_item;
+			global::TEditor.Resource.Id.media_actions = global::XamOffice.Droid.Resource.Id.media_actions;
+			global::TEditor.Resource.Id.menu_cancel = global::XamOffice.Droid.Resource.Id.menu_cancel;
+			global::TEditor.Resource.Id.menu_done = global::XamOffice.Droid.Resource.Id.menu_done;
+			global::TEditor.Resource.Id.middle = global::XamOffice.Droid.Resource.Id.middle;
+			global::TEditor.Resource.Id.multiply = global::XamOffice.Droid.Resource.Id.multiply;
+			global::TEditor.Resource.Id.never = global::XamOffice.Droid.Resource.Id.never;
+			global::TEditor.Resource.Id.new_color_panel = global::XamOffice.Droid.Resource.Id.new_color_panel;
+			global::TEditor.Resource.Id.none = global::XamOffice.Droid.Resource.Id.none;
+			global::TEditor.Resource.Id.normal = global::XamOffice.Droid.Resource.Id.normal;
+			global::TEditor.Resource.Id.old_color_panel = global::XamOffice.Droid.Resource.Id.old_color_panel;
+			global::TEditor.Resource.Id.parentPanel = global::XamOffice.Droid.Resource.Id.parentPanel;
+			global::TEditor.Resource.Id.progress_circular = global::XamOffice.Droid.Resource.Id.progress_circular;
+			global::TEditor.Resource.Id.progress_horizontal = global::XamOffice.Droid.Resource.Id.progress_horizontal;
+			global::TEditor.Resource.Id.radio = global::XamOffice.Droid.Resource.Id.radio;
+			global::TEditor.Resource.Id.screen = global::XamOffice.Droid.Resource.Id.screen;
+			global::TEditor.Resource.Id.scrollIndicatorDown = global::XamOffice.Droid.Resource.Id.scrollIndicatorDown;
+			global::TEditor.Resource.Id.scrollIndicatorUp = global::XamOffice.Droid.Resource.Id.scrollIndicatorUp;
+			global::TEditor.Resource.Id.scrollView = global::XamOffice.Droid.Resource.Id.scrollView;
+			global::TEditor.Resource.Id.search_badge = global::XamOffice.Droid.Resource.Id.search_badge;
+			global::TEditor.Resource.Id.search_bar = global::XamOffice.Droid.Resource.Id.search_bar;
+			global::TEditor.Resource.Id.search_button = global::XamOffice.Droid.Resource.Id.search_button;
+			global::TEditor.Resource.Id.search_close_btn = global::XamOffice.Droid.Resource.Id.search_close_btn;
+			global::TEditor.Resource.Id.search_edit_frame = global::XamOffice.Droid.Resource.Id.search_edit_frame;
+			global::TEditor.Resource.Id.search_go_btn = global::XamOffice.Droid.Resource.Id.search_go_btn;
+			global::TEditor.Resource.Id.search_mag_icon = global::XamOffice.Droid.Resource.Id.search_mag_icon;
+			global::TEditor.Resource.Id.search_plate = global::XamOffice.Droid.Resource.Id.search_plate;
+			global::TEditor.Resource.Id.search_src_text = global::XamOffice.Droid.Resource.Id.search_src_text;
+			global::TEditor.Resource.Id.search_voice_btn = global::XamOffice.Droid.Resource.Id.search_voice_btn;
+			global::TEditor.Resource.Id.select_dialog_listview = global::XamOffice.Droid.Resource.Id.select_dialog_listview;
+			global::TEditor.Resource.Id.shortcut = global::XamOffice.Droid.Resource.Id.shortcut;
+			global::TEditor.Resource.Id.showCustom = global::XamOffice.Droid.Resource.Id.showCustom;
+			global::TEditor.Resource.Id.showHome = global::XamOffice.Droid.Resource.Id.showHome;
+			global::TEditor.Resource.Id.showTitle = global::XamOffice.Droid.Resource.Id.showTitle;
+			global::TEditor.Resource.Id.spacer = global::XamOffice.Droid.Resource.Id.spacer;
+			global::TEditor.Resource.Id.split_action_bar = global::XamOffice.Droid.Resource.Id.split_action_bar;
+			global::TEditor.Resource.Id.src_atop = global::XamOffice.Droid.Resource.Id.src_atop;
+			global::TEditor.Resource.Id.src_in = global::XamOffice.Droid.Resource.Id.src_in;
+			global::TEditor.Resource.Id.src_over = global::XamOffice.Droid.Resource.Id.src_over;
+			global::TEditor.Resource.Id.status_bar_latest_event_content = global::XamOffice.Droid.Resource.Id.status_bar_latest_event_content;
+			global::TEditor.Resource.Id.submit_area = global::XamOffice.Droid.Resource.Id.submit_area;
+			global::TEditor.Resource.Id.tabMode = global::XamOffice.Droid.Resource.Id.tabMode;
+			global::TEditor.Resource.Id.text = global::XamOffice.Droid.Resource.Id.text;
+			global::TEditor.Resource.Id.text2 = global::XamOffice.Droid.Resource.Id.text2;
+			global::TEditor.Resource.Id.textSpacerNoButtons = global::XamOffice.Droid.Resource.Id.textSpacerNoButtons;
+			global::TEditor.Resource.Id.time = global::XamOffice.Droid.Resource.Id.time;
+			global::TEditor.Resource.Id.title = global::XamOffice.Droid.Resource.Id.title;
+			global::TEditor.Resource.Id.title_template = global::XamOffice.Droid.Resource.Id.title_template;
+			global::TEditor.Resource.Id.topPanel = global::XamOffice.Droid.Resource.Id.topPanel;
+			global::TEditor.Resource.Id.up = global::XamOffice.Droid.Resource.Id.up;
+			global::TEditor.Resource.Id.useLogo = global::XamOffice.Droid.Resource.Id.useLogo;
+			global::TEditor.Resource.Id.withText = global::XamOffice.Droid.Resource.Id.withText;
+			global::TEditor.Resource.Id.wrap_content = global::XamOffice.Droid.Resource.Id.wrap_content;
+			global::TEditor.Resource.Integer.abc_config_activityDefaultDur = global::XamOffice.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::TEditor.Resource.Integer.abc_config_activityShortDur = global::XamOffice.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::TEditor.Resource.Integer.cancel_button_image_alpha = global::XamOffice.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::TEditor.Resource.Integer.status_bar_notification_info_maxnum = global::XamOffice.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::TEditor.Resource.Layout.abc_action_bar_title_item = global::XamOffice.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::TEditor.Resource.Layout.abc_action_bar_up_container = global::XamOffice.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::TEditor.Resource.Layout.abc_action_bar_view_list_nav_layout = global::XamOffice.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::TEditor.Resource.Layout.abc_action_menu_item_layout = global::XamOffice.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::TEditor.Resource.Layout.abc_action_menu_layout = global::XamOffice.Droid.Resource.Layout.abc_action_menu_layout;
+			global::TEditor.Resource.Layout.abc_action_mode_bar = global::XamOffice.Droid.Resource.Layout.abc_action_mode_bar;
+			global::TEditor.Resource.Layout.abc_action_mode_close_item_material = global::XamOffice.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::TEditor.Resource.Layout.abc_activity_chooser_view = global::XamOffice.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::TEditor.Resource.Layout.abc_activity_chooser_view_list_item = global::XamOffice.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::TEditor.Resource.Layout.abc_alert_dialog_button_bar_material = global::XamOffice.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::TEditor.Resource.Layout.abc_alert_dialog_material = global::XamOffice.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::TEditor.Resource.Layout.abc_dialog_title_material = global::XamOffice.Droid.Resource.Layout.abc_dialog_title_material;
+			global::TEditor.Resource.Layout.abc_expanded_menu_layout = global::XamOffice.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::TEditor.Resource.Layout.abc_list_menu_item_checkbox = global::XamOffice.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::TEditor.Resource.Layout.abc_list_menu_item_icon = global::XamOffice.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::TEditor.Resource.Layout.abc_list_menu_item_layout = global::XamOffice.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::TEditor.Resource.Layout.abc_list_menu_item_radio = global::XamOffice.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::TEditor.Resource.Layout.abc_popup_menu_item_layout = global::XamOffice.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::TEditor.Resource.Layout.abc_screen_content_include = global::XamOffice.Droid.Resource.Layout.abc_screen_content_include;
+			global::TEditor.Resource.Layout.abc_screen_simple = global::XamOffice.Droid.Resource.Layout.abc_screen_simple;
+			global::TEditor.Resource.Layout.abc_screen_simple_overlay_action_mode = global::XamOffice.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::TEditor.Resource.Layout.abc_screen_toolbar = global::XamOffice.Droid.Resource.Layout.abc_screen_toolbar;
+			global::TEditor.Resource.Layout.abc_search_dropdown_item_icons_2line = global::XamOffice.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::TEditor.Resource.Layout.abc_search_view = global::XamOffice.Droid.Resource.Layout.abc_search_view;
+			global::TEditor.Resource.Layout.abc_select_dialog_material = global::XamOffice.Droid.Resource.Layout.abc_select_dialog_material;
+			global::TEditor.Resource.Layout.dialog_color_picker = global::XamOffice.Droid.Resource.Layout.dialog_color_picker;
+			global::TEditor.Resource.Layout.notification_media_action = global::XamOffice.Droid.Resource.Layout.notification_media_action;
+			global::TEditor.Resource.Layout.notification_media_cancel_action = global::XamOffice.Droid.Resource.Layout.notification_media_cancel_action;
+			global::TEditor.Resource.Layout.notification_template_big_media = global::XamOffice.Droid.Resource.Layout.notification_template_big_media;
+			global::TEditor.Resource.Layout.notification_template_big_media_narrow = global::XamOffice.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::TEditor.Resource.Layout.notification_template_media = global::XamOffice.Droid.Resource.Layout.notification_template_media;
+			global::TEditor.Resource.Layout.notification_template_part_chronometer = global::XamOffice.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::TEditor.Resource.Layout.notification_template_part_time = global::XamOffice.Droid.Resource.Layout.notification_template_part_time;
+			global::TEditor.Resource.Layout.select_dialog_item_material = global::XamOffice.Droid.Resource.Layout.select_dialog_item_material;
+			global::TEditor.Resource.Layout.select_dialog_multichoice_material = global::XamOffice.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::TEditor.Resource.Layout.select_dialog_singlechoice_material = global::XamOffice.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::TEditor.Resource.Layout.support_simple_spinner_dropdown_item = global::XamOffice.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::TEditor.Resource.Layout.TEditorActivity = global::XamOffice.Droid.Resource.Layout.TEditorActivity;
+			global::TEditor.Resource.Menu.TopToolbarMenu = global::XamOffice.Droid.Resource.Menu.TopToolbarMenu;
+			global::TEditor.Resource.String.abc_action_bar_home_description = global::XamOffice.Droid.Resource.String.abc_action_bar_home_description;
+			global::TEditor.Resource.String.abc_action_bar_home_description_format = global::XamOffice.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::TEditor.Resource.String.abc_action_bar_home_subtitle_description_format = global::XamOffice.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::TEditor.Resource.String.abc_action_bar_up_description = global::XamOffice.Droid.Resource.String.abc_action_bar_up_description;
+			global::TEditor.Resource.String.abc_action_menu_overflow_description = global::XamOffice.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::TEditor.Resource.String.abc_action_mode_done = global::XamOffice.Droid.Resource.String.abc_action_mode_done;
+			global::TEditor.Resource.String.abc_activity_chooser_view_see_all = global::XamOffice.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::TEditor.Resource.String.abc_activitychooserview_choose_application = global::XamOffice.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::TEditor.Resource.String.abc_capital_off = global::XamOffice.Droid.Resource.String.abc_capital_off;
+			global::TEditor.Resource.String.abc_capital_on = global::XamOffice.Droid.Resource.String.abc_capital_on;
+			global::TEditor.Resource.String.abc_search_hint = global::XamOffice.Droid.Resource.String.abc_search_hint;
+			global::TEditor.Resource.String.abc_searchview_description_clear = global::XamOffice.Droid.Resource.String.abc_searchview_description_clear;
+			global::TEditor.Resource.String.abc_searchview_description_query = global::XamOffice.Droid.Resource.String.abc_searchview_description_query;
+			global::TEditor.Resource.String.abc_searchview_description_search = global::XamOffice.Droid.Resource.String.abc_searchview_description_search;
+			global::TEditor.Resource.String.abc_searchview_description_submit = global::XamOffice.Droid.Resource.String.abc_searchview_description_submit;
+			global::TEditor.Resource.String.abc_searchview_description_voice = global::XamOffice.Droid.Resource.String.abc_searchview_description_voice;
+			global::TEditor.Resource.String.abc_shareactionprovider_share_with = global::XamOffice.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::TEditor.Resource.String.abc_shareactionprovider_share_with_application = global::XamOffice.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::TEditor.Resource.String.abc_toolbar_collapse_description = global::XamOffice.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::TEditor.Resource.String.app_name = global::XamOffice.Droid.Resource.String.app_name;
+			global::TEditor.Resource.String.button_color_picker_alpha = global::XamOffice.Droid.Resource.String.button_color_picker_alpha;
+			global::TEditor.Resource.String.button_color_picker_noalpha = global::XamOffice.Droid.Resource.String.button_color_picker_noalpha;
+			global::TEditor.Resource.String.button_color_picker_round = global::XamOffice.Droid.Resource.String.button_color_picker_round;
+			global::TEditor.Resource.String.dialog_color_picker = global::XamOffice.Droid.Resource.String.dialog_color_picker;
+			global::TEditor.Resource.String.press_color_to_apply = global::XamOffice.Droid.Resource.String.press_color_to_apply;
+			global::TEditor.Resource.String.status_bar_notification_info_overflow = global::XamOffice.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::TEditor.Resource.Style.AlertDialog_AppCompat = global::XamOffice.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::TEditor.Resource.Style.AlertDialog_AppCompat_Light = global::XamOffice.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::TEditor.Resource.Style.Animation_AppCompat_Dialog = global::XamOffice.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::TEditor.Resource.Style.Animation_AppCompat_DropDownUp = global::XamOffice.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::TEditor.Resource.Style.Base_AlertDialog_AppCompat = global::XamOffice.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::TEditor.Resource.Style.Base_AlertDialog_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::TEditor.Resource.Style.Base_Animation_AppCompat_Dialog = global::XamOffice.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::TEditor.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::XamOffice.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::TEditor.Resource.Style.Base_DialogWindowTitle_AppCompat = global::XamOffice.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::TEditor.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::XamOffice.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Button = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Large = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Small = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Title = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::TEditor.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::TEditor.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::TEditor.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::TEditor.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::XamOffice.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Dialog = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::TEditor.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::XamOffice.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::TEditor.Resource.Style.Base_ThemeOverlay_AppCompat = global::XamOffice.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::TEditor.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::XamOffice.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::TEditor.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::XamOffice.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::TEditor.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::XamOffice.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::TEditor.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::TEditor.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::XamOffice.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::TEditor.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::XamOffice.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::TEditor.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::XamOffice.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::TEditor.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::XamOffice.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::TEditor.Resource.Style.Base_V21_Theme_AppCompat = global::XamOffice.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::TEditor.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::XamOffice.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::TEditor.Resource.Style.Base_V21_Theme_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::TEditor.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::XamOffice.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::TEditor.Resource.Style.Base_V22_Theme_AppCompat = global::XamOffice.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::TEditor.Resource.Style.Base_V22_Theme_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::TEditor.Resource.Style.Base_V23_Theme_AppCompat = global::XamOffice.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::TEditor.Resource.Style.Base_V23_Theme_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::TEditor.Resource.Style.Base_V7_Theme_AppCompat = global::XamOffice.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::TEditor.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::XamOffice.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::TEditor.Resource.Style.Base_V7_Theme_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::TEditor.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::XamOffice.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::TEditor.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::XamOffice.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::TEditor.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::XamOffice.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionButton = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActionMode = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Button = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Button_Small = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_EditText = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ImageButton = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ListView = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_RatingBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_SearchView = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_SeekBar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Spinner = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Toolbar = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::TEditor.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::XamOffice.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::TEditor.Resource.Style.Platform_AppCompat = global::XamOffice.Droid.Resource.Style.Platform_AppCompat;
+			global::TEditor.Resource.Style.Platform_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::TEditor.Resource.Style.Platform_ThemeOverlay_AppCompat = global::XamOffice.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::TEditor.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::XamOffice.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::TEditor.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::TEditor.Resource.Style.Platform_V11_AppCompat = global::XamOffice.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::TEditor.Resource.Style.Platform_V11_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::TEditor.Resource.Style.Platform_V14_AppCompat = global::XamOffice.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::TEditor.Resource.Style.Platform_V14_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::TEditor.Resource.Style.Platform_Widget_AppCompat_Spinner = global::XamOffice.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::TEditor.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::XamOffice.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::TEditor.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::XamOffice.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::TEditor.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::XamOffice.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::TEditor.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::XamOffice.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Body1 = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Body2 = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Button = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Caption = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Display1 = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Display2 = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Display3 = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Display4 = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Headline = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Large = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Medium = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Menu = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Small = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Subhead = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Title = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::TEditor.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XamOffice.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::TEditor.Resource.Style.TextAppearance_StatusBar_EventContent = global::XamOffice.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::TEditor.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::XamOffice.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::TEditor.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::XamOffice.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::TEditor.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::XamOffice.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::TEditor.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::XamOffice.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::TEditor.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XamOffice.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::TEditor.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XamOffice.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::TEditor.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::XamOffice.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::TEditor.Resource.Style.Theme_AppCompat = global::XamOffice.Droid.Resource.Style.Theme_AppCompat;
+			global::TEditor.Resource.Style.Theme_AppCompat_CompactMenu = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::TEditor.Resource.Style.Theme_AppCompat_DayNight = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::TEditor.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::TEditor.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::TEditor.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::TEditor.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::TEditor.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::TEditor.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::TEditor.Resource.Style.Theme_AppCompat_Dialog = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::TEditor.Resource.Style.Theme_AppCompat_Dialog_Alert = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::TEditor.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::TEditor.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::TEditor.Resource.Style.Theme_AppCompat_Light = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::TEditor.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::TEditor.Resource.Style.Theme_AppCompat_Light_Dialog = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::TEditor.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::TEditor.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::TEditor.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::TEditor.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::TEditor.Resource.Style.Theme_AppCompat_NoActionBar = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::TEditor.Resource.Style.Theme_AppCompat_NoActionBar_FullScreen = global::XamOffice.Droid.Resource.Style.Theme_AppCompat_NoActionBar_FullScreen;
+			global::TEditor.Resource.Style.ThemeOverlay_AppCompat = global::XamOffice.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::TEditor.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::XamOffice.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::TEditor.Resource.Style.ThemeOverlay_AppCompat_Dark = global::XamOffice.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::TEditor.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::XamOffice.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::TEditor.Resource.Style.ThemeOverlay_AppCompat_Light = global::XamOffice.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionButton = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActionMode = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::TEditor.Resource.Style.Widget_AppCompat_ActivityChooserView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::TEditor.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::TEditor.Resource.Style.Widget_AppCompat_Button = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::TEditor.Resource.Style.Widget_AppCompat_Button_Borderless = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::TEditor.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::TEditor.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::TEditor.Resource.Style.Widget_AppCompat_Button_Colored = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::TEditor.Resource.Style.Widget_AppCompat_Button_Small = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::TEditor.Resource.Style.Widget_AppCompat_ButtonBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::TEditor.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::TEditor.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::TEditor.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::TEditor.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::TEditor.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::TEditor.Resource.Style.Widget_AppCompat_EditText = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::TEditor.Resource.Style.Widget_AppCompat_ImageButton = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionButton = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_SearchView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::TEditor.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_ListPopupWindow = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::TEditor.Resource.Style.Widget_AppCompat_ListView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::TEditor.Resource.Style.Widget_AppCompat_ListView_DropDown = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::TEditor.Resource.Style.Widget_AppCompat_ListView_Menu = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::TEditor.Resource.Style.Widget_AppCompat_PopupMenu = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::TEditor.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::TEditor.Resource.Style.Widget_AppCompat_PopupWindow = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::TEditor.Resource.Style.Widget_AppCompat_ProgressBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::TEditor.Resource.Style.Widget_AppCompat_RatingBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::TEditor.Resource.Style.Widget_AppCompat_RatingBar_Small = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::TEditor.Resource.Style.Widget_AppCompat_SearchView = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::TEditor.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_SeekBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_Spinner = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::TEditor.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::TEditor.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::TEditor.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::TEditor.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::TEditor.Resource.Style.Widget_AppCompat_Toolbar = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::TEditor.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::XamOffice.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::TEditor.Resource.Styleable.ActionBar = global::XamOffice.Droid.Resource.Styleable.ActionBar;
+			global::TEditor.Resource.Styleable.ActionBar_background = global::XamOffice.Droid.Resource.Styleable.ActionBar_background;
+			global::TEditor.Resource.Styleable.ActionBar_backgroundSplit = global::XamOffice.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::TEditor.Resource.Styleable.ActionBar_backgroundStacked = global::XamOffice.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::TEditor.Resource.Styleable.ActionBar_contentInsetEnd = global::XamOffice.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::TEditor.Resource.Styleable.ActionBar_contentInsetLeft = global::XamOffice.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::TEditor.Resource.Styleable.ActionBar_contentInsetRight = global::XamOffice.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::TEditor.Resource.Styleable.ActionBar_contentInsetStart = global::XamOffice.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::TEditor.Resource.Styleable.ActionBar_customNavigationLayout = global::XamOffice.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::TEditor.Resource.Styleable.ActionBar_displayOptions = global::XamOffice.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::TEditor.Resource.Styleable.ActionBar_divider = global::XamOffice.Droid.Resource.Styleable.ActionBar_divider;
+			global::TEditor.Resource.Styleable.ActionBar_elevation = global::XamOffice.Droid.Resource.Styleable.ActionBar_elevation;
+			global::TEditor.Resource.Styleable.ActionBar_height = global::XamOffice.Droid.Resource.Styleable.ActionBar_height;
+			global::TEditor.Resource.Styleable.ActionBar_hideOnContentScroll = global::XamOffice.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::TEditor.Resource.Styleable.ActionBar_homeAsUpIndicator = global::XamOffice.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::TEditor.Resource.Styleable.ActionBar_homeLayout = global::XamOffice.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::TEditor.Resource.Styleable.ActionBar_icon = global::XamOffice.Droid.Resource.Styleable.ActionBar_icon;
+			global::TEditor.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::XamOffice.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::TEditor.Resource.Styleable.ActionBar_itemPadding = global::XamOffice.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::TEditor.Resource.Styleable.ActionBar_logo = global::XamOffice.Droid.Resource.Styleable.ActionBar_logo;
+			global::TEditor.Resource.Styleable.ActionBar_navigationMode = global::XamOffice.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::TEditor.Resource.Styleable.ActionBar_popupTheme = global::XamOffice.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::TEditor.Resource.Styleable.ActionBar_progressBarPadding = global::XamOffice.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::TEditor.Resource.Styleable.ActionBar_progressBarStyle = global::XamOffice.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::TEditor.Resource.Styleable.ActionBar_subtitle = global::XamOffice.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::TEditor.Resource.Styleable.ActionBar_subtitleTextStyle = global::XamOffice.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::TEditor.Resource.Styleable.ActionBar_title = global::XamOffice.Droid.Resource.Styleable.ActionBar_title;
+			global::TEditor.Resource.Styleable.ActionBar_titleTextStyle = global::XamOffice.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::TEditor.Resource.Styleable.ActionBarLayout = global::XamOffice.Droid.Resource.Styleable.ActionBarLayout;
+			global::TEditor.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::XamOffice.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::TEditor.Resource.Styleable.ActionMenuItemView = global::XamOffice.Droid.Resource.Styleable.ActionMenuItemView;
+			global::TEditor.Resource.Styleable.ActionMenuItemView_android_minWidth = global::XamOffice.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::TEditor.Resource.Styleable.ActionMenuView = global::XamOffice.Droid.Resource.Styleable.ActionMenuView;
+			global::TEditor.Resource.Styleable.ActionMode = global::XamOffice.Droid.Resource.Styleable.ActionMode;
+			global::TEditor.Resource.Styleable.ActionMode_background = global::XamOffice.Droid.Resource.Styleable.ActionMode_background;
+			global::TEditor.Resource.Styleable.ActionMode_backgroundSplit = global::XamOffice.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::TEditor.Resource.Styleable.ActionMode_closeItemLayout = global::XamOffice.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::TEditor.Resource.Styleable.ActionMode_height = global::XamOffice.Droid.Resource.Styleable.ActionMode_height;
+			global::TEditor.Resource.Styleable.ActionMode_subtitleTextStyle = global::XamOffice.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::TEditor.Resource.Styleable.ActionMode_titleTextStyle = global::XamOffice.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::TEditor.Resource.Styleable.ActivityChooserView = global::XamOffice.Droid.Resource.Styleable.ActivityChooserView;
+			global::TEditor.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::XamOffice.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::TEditor.Resource.Styleable.ActivityChooserView_initialActivityCount = global::XamOffice.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::TEditor.Resource.Styleable.AlertDialog = global::XamOffice.Droid.Resource.Styleable.AlertDialog;
+			global::TEditor.Resource.Styleable.AlertDialog_android_layout = global::XamOffice.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::TEditor.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::XamOffice.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::TEditor.Resource.Styleable.AlertDialog_listItemLayout = global::XamOffice.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::TEditor.Resource.Styleable.AlertDialog_listLayout = global::XamOffice.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::TEditor.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::XamOffice.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::TEditor.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::XamOffice.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::TEditor.Resource.Styleable.AppCompatImageView = global::XamOffice.Droid.Resource.Styleable.AppCompatImageView;
+			global::TEditor.Resource.Styleable.AppCompatImageView_android_src = global::XamOffice.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::TEditor.Resource.Styleable.AppCompatImageView_srcCompat = global::XamOffice.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::TEditor.Resource.Styleable.AppCompatTextView = global::XamOffice.Droid.Resource.Styleable.AppCompatTextView;
+			global::TEditor.Resource.Styleable.AppCompatTextView_android_textAppearance = global::XamOffice.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::TEditor.Resource.Styleable.AppCompatTextView_textAllCaps = global::XamOffice.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::TEditor.Resource.Styleable.AppCompatTheme = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarDivider = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarSize = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarTheme = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeBackground = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::TEditor.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::TEditor.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::TEditor.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_buttonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::TEditor.Resource.Styleable.AppCompatTheme_checkboxStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorAccent = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorControlActivated = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorControlNormal = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorPrimary = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::TEditor.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::TEditor.Resource.Styleable.AppCompatTheme_controlBackground = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::TEditor.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::TEditor.Resource.Styleable.AppCompatTheme_dialogTheme = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::TEditor.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::TEditor.Resource.Styleable.AppCompatTheme_dividerVertical = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::TEditor.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::TEditor.Resource.Styleable.AppCompatTheme_editTextBackground = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::TEditor.Resource.Styleable.AppCompatTheme_editTextColor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_editTextStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::TEditor.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::TEditor.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::TEditor.Resource.Styleable.AppCompatTheme_panelBackground = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::TEditor.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::TEditor.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::TEditor.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::TEditor.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::TEditor.Resource.Styleable.AppCompatTheme_searchViewStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_seekBarStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::TEditor.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::TEditor.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_spinnerStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_switchStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::TEditor.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::TEditor.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_toolbarStyle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowActionBar = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::TEditor.Resource.Styleable.AppCompatTheme_windowNoTitle = global::XamOffice.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::TEditor.Resource.Styleable.ButtonBarLayout = global::XamOffice.Droid.Resource.Styleable.ButtonBarLayout;
+			global::TEditor.Resource.Styleable.ButtonBarLayout_allowStacking = global::XamOffice.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::TEditor.Resource.Styleable.CompoundButton = global::XamOffice.Droid.Resource.Styleable.CompoundButton;
+			global::TEditor.Resource.Styleable.CompoundButton_android_button = global::XamOffice.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::TEditor.Resource.Styleable.CompoundButton_buttonTint = global::XamOffice.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::TEditor.Resource.Styleable.CompoundButton_buttonTintMode = global::XamOffice.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_barLength = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_color = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_drawableSize = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_spinBars = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::TEditor.Resource.Styleable.DrawerArrowToggle_thickness = global::XamOffice.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_android_gravity = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_android_orientation = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_divider = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_showDividers = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_Layout = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::TEditor.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::XamOffice.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::TEditor.Resource.Styleable.ListPopupWindow = global::XamOffice.Droid.Resource.Styleable.ListPopupWindow;
+			global::TEditor.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::XamOffice.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::TEditor.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::XamOffice.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::TEditor.Resource.Styleable.MenuGroup = global::XamOffice.Droid.Resource.Styleable.MenuGroup;
+			global::TEditor.Resource.Styleable.MenuGroup_android_checkableBehavior = global::XamOffice.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::TEditor.Resource.Styleable.MenuGroup_android_enabled = global::XamOffice.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::TEditor.Resource.Styleable.MenuGroup_android_id = global::XamOffice.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::TEditor.Resource.Styleable.MenuGroup_android_menuCategory = global::XamOffice.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::TEditor.Resource.Styleable.MenuGroup_android_orderInCategory = global::XamOffice.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::TEditor.Resource.Styleable.MenuGroup_android_visible = global::XamOffice.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::TEditor.Resource.Styleable.MenuItem = global::XamOffice.Droid.Resource.Styleable.MenuItem;
+			global::TEditor.Resource.Styleable.MenuItem_actionLayout = global::XamOffice.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::TEditor.Resource.Styleable.MenuItem_actionProviderClass = global::XamOffice.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::TEditor.Resource.Styleable.MenuItem_actionViewClass = global::XamOffice.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::TEditor.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::TEditor.Resource.Styleable.MenuItem_android_checkable = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::TEditor.Resource.Styleable.MenuItem_android_checked = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::TEditor.Resource.Styleable.MenuItem_android_enabled = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::TEditor.Resource.Styleable.MenuItem_android_icon = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::TEditor.Resource.Styleable.MenuItem_android_id = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_id;
+			global::TEditor.Resource.Styleable.MenuItem_android_menuCategory = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::TEditor.Resource.Styleable.MenuItem_android_numericShortcut = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::TEditor.Resource.Styleable.MenuItem_android_onClick = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::TEditor.Resource.Styleable.MenuItem_android_orderInCategory = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::TEditor.Resource.Styleable.MenuItem_android_title = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_title;
+			global::TEditor.Resource.Styleable.MenuItem_android_titleCondensed = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::TEditor.Resource.Styleable.MenuItem_android_visible = global::XamOffice.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::TEditor.Resource.Styleable.MenuItem_showAsAction = global::XamOffice.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::TEditor.Resource.Styleable.MenuView = global::XamOffice.Droid.Resource.Styleable.MenuView;
+			global::TEditor.Resource.Styleable.MenuView_android_headerBackground = global::XamOffice.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::TEditor.Resource.Styleable.MenuView_android_horizontalDivider = global::XamOffice.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::TEditor.Resource.Styleable.MenuView_android_itemBackground = global::XamOffice.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::TEditor.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::XamOffice.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::TEditor.Resource.Styleable.MenuView_android_itemTextAppearance = global::XamOffice.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::TEditor.Resource.Styleable.MenuView_android_verticalDivider = global::XamOffice.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::TEditor.Resource.Styleable.MenuView_android_windowAnimationStyle = global::XamOffice.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::TEditor.Resource.Styleable.MenuView_preserveIconSpacing = global::XamOffice.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::TEditor.Resource.Styleable.PopupWindow = global::XamOffice.Droid.Resource.Styleable.PopupWindow;
+			global::TEditor.Resource.Styleable.PopupWindow_android_popupBackground = global::XamOffice.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::TEditor.Resource.Styleable.PopupWindow_overlapAnchor = global::XamOffice.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::TEditor.Resource.Styleable.PopupWindowBackgroundState = global::XamOffice.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::TEditor.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::XamOffice.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::TEditor.Resource.Styleable.SearchView = global::XamOffice.Droid.Resource.Styleable.SearchView;
+			global::TEditor.Resource.Styleable.SearchView_android_focusable = global::XamOffice.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::TEditor.Resource.Styleable.SearchView_android_imeOptions = global::XamOffice.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::TEditor.Resource.Styleable.SearchView_android_inputType = global::XamOffice.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::TEditor.Resource.Styleable.SearchView_android_maxWidth = global::XamOffice.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::TEditor.Resource.Styleable.SearchView_closeIcon = global::XamOffice.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::TEditor.Resource.Styleable.SearchView_commitIcon = global::XamOffice.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::TEditor.Resource.Styleable.SearchView_defaultQueryHint = global::XamOffice.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::TEditor.Resource.Styleable.SearchView_goIcon = global::XamOffice.Droid.Resource.Styleable.SearchView_goIcon;
+			global::TEditor.Resource.Styleable.SearchView_iconifiedByDefault = global::XamOffice.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::TEditor.Resource.Styleable.SearchView_layout = global::XamOffice.Droid.Resource.Styleable.SearchView_layout;
+			global::TEditor.Resource.Styleable.SearchView_queryBackground = global::XamOffice.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::TEditor.Resource.Styleable.SearchView_queryHint = global::XamOffice.Droid.Resource.Styleable.SearchView_queryHint;
+			global::TEditor.Resource.Styleable.SearchView_searchHintIcon = global::XamOffice.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::TEditor.Resource.Styleable.SearchView_searchIcon = global::XamOffice.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::TEditor.Resource.Styleable.SearchView_submitBackground = global::XamOffice.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::TEditor.Resource.Styleable.SearchView_suggestionRowLayout = global::XamOffice.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::TEditor.Resource.Styleable.SearchView_voiceIcon = global::XamOffice.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::TEditor.Resource.Styleable.Spinner = global::XamOffice.Droid.Resource.Styleable.Spinner;
+			global::TEditor.Resource.Styleable.Spinner_android_dropDownWidth = global::XamOffice.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::TEditor.Resource.Styleable.Spinner_android_entries = global::XamOffice.Droid.Resource.Styleable.Spinner_android_entries;
+			global::TEditor.Resource.Styleable.Spinner_android_popupBackground = global::XamOffice.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::TEditor.Resource.Styleable.Spinner_android_prompt = global::XamOffice.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::TEditor.Resource.Styleable.Spinner_popupTheme = global::XamOffice.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::TEditor.Resource.Styleable.SwitchCompat = global::XamOffice.Droid.Resource.Styleable.SwitchCompat;
+			global::TEditor.Resource.Styleable.SwitchCompat_android_textOff = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::TEditor.Resource.Styleable.SwitchCompat_android_textOn = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::TEditor.Resource.Styleable.SwitchCompat_android_thumb = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::TEditor.Resource.Styleable.SwitchCompat_showText = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::TEditor.Resource.Styleable.SwitchCompat_splitTrack = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::TEditor.Resource.Styleable.SwitchCompat_switchMinWidth = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::TEditor.Resource.Styleable.SwitchCompat_switchPadding = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::TEditor.Resource.Styleable.SwitchCompat_switchTextAppearance = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::TEditor.Resource.Styleable.SwitchCompat_thumbTextPadding = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::TEditor.Resource.Styleable.SwitchCompat_track = global::XamOffice.Droid.Resource.Styleable.SwitchCompat_track;
+			global::TEditor.Resource.Styleable.TextAppearance = global::XamOffice.Droid.Resource.Styleable.TextAppearance;
+			global::TEditor.Resource.Styleable.TextAppearance_android_shadowColor = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::TEditor.Resource.Styleable.TextAppearance_android_shadowDx = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::TEditor.Resource.Styleable.TextAppearance_android_shadowDy = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::TEditor.Resource.Styleable.TextAppearance_android_shadowRadius = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::TEditor.Resource.Styleable.TextAppearance_android_textColor = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::TEditor.Resource.Styleable.TextAppearance_android_textSize = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::TEditor.Resource.Styleable.TextAppearance_android_textStyle = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::TEditor.Resource.Styleable.TextAppearance_android_typeface = global::XamOffice.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::TEditor.Resource.Styleable.TextAppearance_textAllCaps = global::XamOffice.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::TEditor.Resource.Styleable.Toolbar = global::XamOffice.Droid.Resource.Styleable.Toolbar;
+			global::TEditor.Resource.Styleable.Toolbar_android_gravity = global::XamOffice.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::TEditor.Resource.Styleable.Toolbar_android_minHeight = global::XamOffice.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::TEditor.Resource.Styleable.Toolbar_collapseContentDescription = global::XamOffice.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::TEditor.Resource.Styleable.Toolbar_collapseIcon = global::XamOffice.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::TEditor.Resource.Styleable.Toolbar_contentInsetEnd = global::XamOffice.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::TEditor.Resource.Styleable.Toolbar_contentInsetLeft = global::XamOffice.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::TEditor.Resource.Styleable.Toolbar_contentInsetRight = global::XamOffice.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::TEditor.Resource.Styleable.Toolbar_contentInsetStart = global::XamOffice.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::TEditor.Resource.Styleable.Toolbar_logo = global::XamOffice.Droid.Resource.Styleable.Toolbar_logo;
+			global::TEditor.Resource.Styleable.Toolbar_logoDescription = global::XamOffice.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::TEditor.Resource.Styleable.Toolbar_maxButtonHeight = global::XamOffice.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::TEditor.Resource.Styleable.Toolbar_navigationContentDescription = global::XamOffice.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::TEditor.Resource.Styleable.Toolbar_navigationIcon = global::XamOffice.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::TEditor.Resource.Styleable.Toolbar_popupTheme = global::XamOffice.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::TEditor.Resource.Styleable.Toolbar_subtitle = global::XamOffice.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::TEditor.Resource.Styleable.Toolbar_subtitleTextAppearance = global::XamOffice.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::TEditor.Resource.Styleable.Toolbar_subtitleTextColor = global::XamOffice.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::TEditor.Resource.Styleable.Toolbar_title = global::XamOffice.Droid.Resource.Styleable.Toolbar_title;
+			global::TEditor.Resource.Styleable.Toolbar_titleMarginBottom = global::XamOffice.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::TEditor.Resource.Styleable.Toolbar_titleMarginEnd = global::XamOffice.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::TEditor.Resource.Styleable.Toolbar_titleMarginStart = global::XamOffice.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::TEditor.Resource.Styleable.Toolbar_titleMarginTop = global::XamOffice.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::TEditor.Resource.Styleable.Toolbar_titleMargins = global::XamOffice.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::TEditor.Resource.Styleable.Toolbar_titleTextAppearance = global::XamOffice.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::TEditor.Resource.Styleable.Toolbar_titleTextColor = global::XamOffice.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::TEditor.Resource.Styleable.View = global::XamOffice.Droid.Resource.Styleable.View;
+			global::TEditor.Resource.Styleable.View_android_focusable = global::XamOffice.Droid.Resource.Styleable.View_android_focusable;
+			global::TEditor.Resource.Styleable.View_android_theme = global::XamOffice.Droid.Resource.Styleable.View_android_theme;
+			global::TEditor.Resource.Styleable.View_paddingEnd = global::XamOffice.Droid.Resource.Styleable.View_paddingEnd;
+			global::TEditor.Resource.Styleable.View_paddingStart = global::XamOffice.Droid.Resource.Styleable.View_paddingStart;
+			global::TEditor.Resource.Styleable.View_theme = global::XamOffice.Droid.Resource.Styleable.View_theme;
+			global::TEditor.Resource.Styleable.ViewBackgroundHelper = global::XamOffice.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::TEditor.Resource.Styleable.ViewBackgroundHelper_android_background = global::XamOffice.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::TEditor.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::XamOffice.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::TEditor.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::XamOffice.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::TEditor.Resource.Styleable.ViewStubCompat = global::XamOffice.Droid.Resource.Styleable.ViewStubCompat;
+			global::TEditor.Resource.Styleable.ViewStubCompat_android_id = global::XamOffice.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::TEditor.Resource.Styleable.ViewStubCompat_android_inflatedId = global::XamOffice.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::TEditor.Resource.Styleable.ViewStubCompat_android_layout = global::XamOffice.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::XamOffice.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -4290,103 +5575,217 @@ namespace XamOffice.Droid
 			public const int icon = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int mr_button_connected_dark = 2130837741;
+			public const int MenuDiscard = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int mr_button_connected_light = 2130837742;
+			public const int MenuSave = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int mr_button_connecting_dark = 2130837743;
+			public const int mr_button_connected_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int mr_button_connecting_light = 2130837744;
+			public const int mr_button_connected_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int mr_button_dark = 2130837745;
+			public const int mr_button_connecting_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int mr_button_light = 2130837746;
+			public const int mr_button_connecting_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int mr_dialog_close_dark = 2130837747;
+			public const int mr_button_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int mr_dialog_close_light = 2130837748;
+			public const int mr_button_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int mr_dialog_material_background_dark = 2130837749;
+			public const int mr_dialog_close_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int mr_dialog_material_background_light = 2130837750;
+			public const int mr_dialog_close_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int mr_group_collapse = 2130837751;
+			public const int mr_dialog_material_background_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int mr_group_expand = 2130837752;
+			public const int mr_dialog_material_background_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int mr_media_pause_dark = 2130837753;
+			public const int mr_group_collapse = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int mr_media_pause_light = 2130837754;
+			public const int mr_group_expand = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int mr_media_play_dark = 2130837755;
+			public const int mr_media_pause_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int mr_media_play_light = 2130837756;
+			public const int mr_media_pause_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int mr_media_stop_dark = 2130837757;
+			public const int mr_media_play_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int mr_media_stop_light = 2130837758;
+			public const int mr_media_play_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int mr_vol_type_audiotrack_dark = 2130837759;
+			public const int mr_media_stop_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int mr_vol_type_audiotrack_light = 2130837760;
+			public const int mr_media_stop_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int navigation_empty_icon = 2130837761;
+			public const int mr_vol_type_audiotrack_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int notification_action_background = 2130837762;
+			public const int mr_vol_type_audiotrack_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int notification_bg = 2130837763;
+			public const int navigation_empty_icon = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int notification_bg_low = 2130837764;
+			public const int notification_action_background = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int notification_bg_low_normal = 2130837765;
+			public const int notification_bg = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int notification_bg_low_pressed = 2130837766;
+			public const int notification_bg_low = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int notification_bg_normal = 2130837767;
+			public const int notification_bg_low_normal = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int notification_bg_normal_pressed = 2130837768;
+			public const int notification_bg_low_pressed = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int notification_icon_background = 2130837769;
-			
-			// aapt resource value: 0x7f02010c
-			public const int notification_template_icon_bg = 2130837772;
-			
-			// aapt resource value: 0x7f02010d
-			public const int notification_template_icon_low_bg = 2130837773;
+			public const int notification_bg_normal = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int notification_tile_bg = 2130837770;
+			public const int notification_bg_normal_pressed = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int notify_panel_notification_icon_bg = 2130837771;
+			public const int notification_icon_background = 2130837771;
+			
+			// aapt resource value: 0x7f020132
+			public const int notification_template_icon_bg = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int notification_template_icon_low_bg = 2130837811;
+			
+			// aapt resource value: 0x7f02010c
+			public const int notification_tile_bg = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int notify_panel_notification_icon_bg = 2130837773;
+			
+			// aapt resource value: 0x7f02010e
+			public const int ZSSbgcolor = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int ZSSbold = 2130837775;
+			
+			// aapt resource value: 0x7f020110
+			public const int ZSScenterjustify = 2130837776;
+			
+			// aapt resource value: 0x7f020111
+			public const int ZSSclearstyle = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int ZSSforcejustify = 2130837778;
+			
+			// aapt resource value: 0x7f020113
+			public const int ZSSh1 = 2130837779;
+			
+			// aapt resource value: 0x7f020114
+			public const int ZSSh2 = 2130837780;
+			
+			// aapt resource value: 0x7f020115
+			public const int ZSSh3 = 2130837781;
+			
+			// aapt resource value: 0x7f020116
+			public const int ZSSh4 = 2130837782;
+			
+			// aapt resource value: 0x7f020117
+			public const int ZSSh5 = 2130837783;
+			
+			// aapt resource value: 0x7f020118
+			public const int ZSSh6 = 2130837784;
+			
+			// aapt resource value: 0x7f020119
+			public const int ZSShorizontalrule = 2130837785;
+			
+			// aapt resource value: 0x7f02011a
+			public const int ZSSimage = 2130837786;
+			
+			// aapt resource value: 0x7f02011b
+			public const int ZSSindent = 2130837787;
+			
+			// aapt resource value: 0x7f02011c
+			public const int ZSSinsertkeyword = 2130837788;
+			
+			// aapt resource value: 0x7f02011d
+			public const int ZSSitalic = 2130837789;
+			
+			// aapt resource value: 0x7f02011e
+			public const int ZSSkeyboard = 2130837790;
+			
+			// aapt resource value: 0x7f02011f
+			public const int ZSSleftjustify = 2130837791;
+			
+			// aapt resource value: 0x7f020120
+			public const int ZSSlink = 2130837792;
+			
+			// aapt resource value: 0x7f020121
+			public const int ZSSorderedlist = 2130837793;
+			
+			// aapt resource value: 0x7f020122
+			public const int ZSSoutdent = 2130837794;
+			
+			// aapt resource value: 0x7f020123
+			public const int ZSSparagraph = 2130837795;
+			
+			// aapt resource value: 0x7f020124
+			public const int ZSSpicker = 2130837796;
+			
+			// aapt resource value: 0x7f020125
+			public const int ZSSquicklink = 2130837797;
+			
+			// aapt resource value: 0x7f020126
+			public const int ZSSredo = 2130837798;
+			
+			// aapt resource value: 0x7f020127
+			public const int ZSSrightjustify = 2130837799;
+			
+			// aapt resource value: 0x7f020128
+			public const int ZSSstrikethrough = 2130837800;
+			
+			// aapt resource value: 0x7f020129
+			public const int ZSSsubscript = 2130837801;
+			
+			// aapt resource value: 0x7f02012a
+			public const int ZSSsuperscript = 2130837802;
+			
+			// aapt resource value: 0x7f02012b
+			public const int ZSStable = 2130837803;
+			
+			// aapt resource value: 0x7f02012c
+			public const int ZSStextcolor = 2130837804;
+			
+			// aapt resource value: 0x7f02012d
+			public const int ZSSunderline = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int ZSSundo = 2130837806;
+			
+			// aapt resource value: 0x7f02012f
+			public const int ZSSunlink = 2130837807;
+			
+			// aapt resource value: 0x7f020130
+			public const int ZSSunorderedlist = 2130837808;
+			
+			// aapt resource value: 0x7f020131
+			public const int ZSSviewsource = 2130837809;
 			
 			static Drawable()
 			{
@@ -4401,8 +5800,23 @@ namespace XamOffice.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08009e
-			public const int action0 = 2131230878;
+			// aapt resource value: 0x7f0800b8
+			public const int EditorWebView = 2131230904;
+			
+			// aapt resource value: 0x7f0800b6
+			public const int RootRelativeLayout = 2131230902;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int ToolbarItemsLayout = 2131230906;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int ToolbarLayout = 2131230905;
+			
+			// aapt resource value: 0x7f0800b7
+			public const int TopToolbar = 2131230903;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int action0 = 2131230881;
 			
 			// aapt resource value: 0x7f080064
 			public const int action_bar = 2131230820;
@@ -4425,17 +5839,17 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080041
 			public const int action_bar_title = 2131230785;
 			
-			// aapt resource value: 0x7f08009b
-			public const int action_container = 2131230875;
+			// aapt resource value: 0x7f08009e
+			public const int action_container = 2131230878;
 			
 			// aapt resource value: 0x7f080065
 			public const int action_context_bar = 2131230821;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int action_divider = 2131230882;
+			// aapt resource value: 0x7f0800a5
+			public const int action_divider = 2131230885;
 			
-			// aapt resource value: 0x7f08009c
-			public const int action_image = 2131230876;
+			// aapt resource value: 0x7f08009f
+			public const int action_image = 2131230879;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -4452,11 +5866,11 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080043
 			public const int action_mode_close_button = 2131230787;
 			
-			// aapt resource value: 0x7f08009d
-			public const int action_text = 2131230877;
+			// aapt resource value: 0x7f0800a0
+			public const int action_text = 2131230880;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int actions = 2131230891;
+			// aapt resource value: 0x7f0800ae
+			public const int actions = 2131230894;
 			
 			// aapt resource value: 0x7f080044
 			public const int activity_chooser_view_content = 2131230788;
@@ -4485,8 +5899,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
 			
-			// aapt resource value: 0x7f08009f
-			public const int cancel_action = 2131230879;
+			// aapt resource value: 0x7f0800a2
+			public const int cancel_action = 2131230882;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -4500,8 +5914,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f08005b
 			public const int checkbox = 2131230811;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int chronometer = 2131230887;
+			// aapt resource value: 0x7f0800aa
+			public const int chronometer = 2131230890;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -4511,6 +5925,9 @@ namespace XamOffice.Droid
 			
 			// aapt resource value: 0x7f080024
 			public const int collapseActionView = 2131230756;
+			
+			// aapt resource value: 0x7f080081
+			public const int color_picker_view = 2131230849;
 			
 			// aapt resource value: 0x7f080075
 			public const int container = 2131230837;
@@ -4557,8 +5974,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int end_padder = 2131230897;
+			// aapt resource value: 0x7f0800b4
+			public const int end_padder = 2131230900;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -4596,8 +6013,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080049
 			public const int icon = 2131230793;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int icon_group = 2131230892;
+			// aapt resource value: 0x7f0800af
+			public const int icon_group = 2131230895;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
@@ -4605,8 +6022,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080046
 			public const int image = 2131230790;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int info = 2131230888;
+			// aapt resource value: 0x7f0800ab
+			public const int info = 2131230891;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
@@ -4617,11 +6034,11 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int line1 = 2131230893;
+			// aapt resource value: 0x7f0800b0
+			public const int line1 = 2131230896;
 			
-			// aapt resource value: 0x7f0800af
-			public const int line3 = 2131230895;
+			// aapt resource value: 0x7f0800b2
+			public const int line3 = 2131230898;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
@@ -4629,11 +6046,17 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int masked = 2131230901;
+			// aapt resource value: 0x7f0800bd
+			public const int masked = 2131230909;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int media_actions = 2131230881;
+			// aapt resource value: 0x7f0800a4
+			public const int media_actions = 2131230884;
+			
+			// aapt resource value: 0x7f0800be
+			public const int menu_cancel = 2131230910;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int menu_done = 2131230911;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -4641,80 +6064,80 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f08003e
 			public const int mini = 2131230782;
 			
-			// aapt resource value: 0x7f08008d
-			public const int mr_art = 2131230861;
-			
-			// aapt resource value: 0x7f080082
-			public const int mr_chooser_list = 2131230850;
+			// aapt resource value: 0x7f080090
+			public const int mr_art = 2131230864;
 			
 			// aapt resource value: 0x7f080085
-			public const int mr_chooser_route_desc = 2131230853;
-			
-			// aapt resource value: 0x7f080083
-			public const int mr_chooser_route_icon = 2131230851;
-			
-			// aapt resource value: 0x7f080084
-			public const int mr_chooser_route_name = 2131230852;
-			
-			// aapt resource value: 0x7f080081
-			public const int mr_chooser_title = 2131230849;
-			
-			// aapt resource value: 0x7f08008a
-			public const int mr_close = 2131230858;
-			
-			// aapt resource value: 0x7f080090
-			public const int mr_control_divider = 2131230864;
-			
-			// aapt resource value: 0x7f080096
-			public const int mr_control_playback_ctrl = 2131230870;
-			
-			// aapt resource value: 0x7f080099
-			public const int mr_control_subtitle = 2131230873;
-			
-			// aapt resource value: 0x7f080098
-			public const int mr_control_title = 2131230872;
-			
-			// aapt resource value: 0x7f080097
-			public const int mr_control_title_container = 2131230871;
-			
-			// aapt resource value: 0x7f08008b
-			public const int mr_custom_control = 2131230859;
-			
-			// aapt resource value: 0x7f08008c
-			public const int mr_default_control = 2131230860;
-			
-			// aapt resource value: 0x7f080087
-			public const int mr_dialog_area = 2131230855;
-			
-			// aapt resource value: 0x7f080086
-			public const int mr_expandable_area = 2131230854;
-			
-			// aapt resource value: 0x7f08009a
-			public const int mr_group_expand_collapse = 2131230874;
-			
-			// aapt resource value: 0x7f08008e
-			public const int mr_media_main_control = 2131230862;
-			
-			// aapt resource value: 0x7f080089
-			public const int mr_name = 2131230857;
-			
-			// aapt resource value: 0x7f08008f
-			public const int mr_playback_control = 2131230863;
+			public const int mr_chooser_list = 2131230853;
 			
 			// aapt resource value: 0x7f080088
-			public const int mr_title_bar = 2131230856;
+			public const int mr_chooser_route_desc = 2131230856;
+			
+			// aapt resource value: 0x7f080086
+			public const int mr_chooser_route_icon = 2131230854;
+			
+			// aapt resource value: 0x7f080087
+			public const int mr_chooser_route_name = 2131230855;
+			
+			// aapt resource value: 0x7f080084
+			public const int mr_chooser_title = 2131230852;
+			
+			// aapt resource value: 0x7f08008d
+			public const int mr_close = 2131230861;
+			
+			// aapt resource value: 0x7f080093
+			public const int mr_control_divider = 2131230867;
+			
+			// aapt resource value: 0x7f080099
+			public const int mr_control_playback_ctrl = 2131230873;
+			
+			// aapt resource value: 0x7f08009c
+			public const int mr_control_subtitle = 2131230876;
+			
+			// aapt resource value: 0x7f08009b
+			public const int mr_control_title = 2131230875;
+			
+			// aapt resource value: 0x7f08009a
+			public const int mr_control_title_container = 2131230874;
+			
+			// aapt resource value: 0x7f08008e
+			public const int mr_custom_control = 2131230862;
+			
+			// aapt resource value: 0x7f08008f
+			public const int mr_default_control = 2131230863;
+			
+			// aapt resource value: 0x7f08008a
+			public const int mr_dialog_area = 2131230858;
+			
+			// aapt resource value: 0x7f080089
+			public const int mr_expandable_area = 2131230857;
+			
+			// aapt resource value: 0x7f08009d
+			public const int mr_group_expand_collapse = 2131230877;
 			
 			// aapt resource value: 0x7f080091
-			public const int mr_volume_control = 2131230865;
+			public const int mr_media_main_control = 2131230865;
+			
+			// aapt resource value: 0x7f08008c
+			public const int mr_name = 2131230860;
 			
 			// aapt resource value: 0x7f080092
-			public const int mr_volume_group_list = 2131230866;
+			public const int mr_playback_control = 2131230866;
+			
+			// aapt resource value: 0x7f08008b
+			public const int mr_title_bar = 2131230859;
 			
 			// aapt resource value: 0x7f080094
-			public const int mr_volume_item_icon = 2131230868;
+			public const int mr_volume_control = 2131230868;
 			
 			// aapt resource value: 0x7f080095
-			public const int mr_volume_slider = 2131230869;
+			public const int mr_volume_group_list = 2131230869;
+			
+			// aapt resource value: 0x7f080097
+			public const int mr_volume_item_icon = 2131230871;
+			
+			// aapt resource value: 0x7f080098
+			public const int mr_volume_slider = 2131230872;
 			
 			// aapt resource value: 0x7f080019
 			public const int multiply = 2131230745;
@@ -4725,20 +6148,26 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080026
 			public const int never = 2131230758;
 			
+			// aapt resource value: 0x7f080083
+			public const int new_color_panel = 2131230851;
+			
 			// aapt resource value: 0x7f080014
 			public const int none = 2131230740;
 			
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int notification_background = 2131230890;
+			// aapt resource value: 0x7f0800ad
+			public const int notification_background = 2131230893;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int notification_main_column = 2131230884;
+			// aapt resource value: 0x7f0800a7
+			public const int notification_main_column = 2131230887;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int notification_main_column_container = 2131230883;
+			// aapt resource value: 0x7f0800a6
+			public const int notification_main_column_container = 2131230886;
+			
+			// aapt resource value: 0x7f080082
+			public const int old_color_panel = 2131230850;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
@@ -4761,11 +6190,11 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int right_icon = 2131230889;
+			// aapt resource value: 0x7f0800ac
+			public const int right_icon = 2131230892;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int right_side = 2131230885;
+			// aapt resource value: 0x7f0800a8
+			public const int right_side = 2131230888;
 			
 			// aapt resource value: 0x7f08001a
 			public const int screen = 2131230746;
@@ -4830,8 +6259,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int sliding_tabs = 2131230898;
+			// aapt resource value: 0x7f0800b5
+			public const int sliding_tabs = 2131230901;
 			
 			// aapt resource value: 0x7f080073
 			public const int smallLabel = 2131230835;
@@ -4863,8 +6292,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int status_bar_latest_event_content = 2131230880;
+			// aapt resource value: 0x7f0800a3
+			public const int status_bar_latest_event_content = 2131230883;
 			
 			// aapt resource value: 0x7f08005e
 			public const int submenuarrow = 2131230814;
@@ -4875,11 +6304,11 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int text = 2131230896;
+			// aapt resource value: 0x7f0800b3
+			public const int text = 2131230899;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int text2 = 2131230894;
+			// aapt resource value: 0x7f0800b1
+			public const int text2 = 2131230897;
 			
 			// aapt resource value: 0x7f080052
 			public const int textSpacerNoButtons = 2131230802;
@@ -4896,8 +6325,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int time = 2131230886;
+			// aapt resource value: 0x7f0800a9
+			public const int time = 2131230889;
 			
 			// aapt resource value: 0x7f08004a
 			public const int title = 2131230794;
@@ -4908,8 +6337,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f080057
 			public const int title_template = 2131230807;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int toolbar = 2131230899;
+			// aapt resource value: 0x7f0800bb
+			public const int toolbar = 2131230907;
 			
 			// aapt resource value: 0x7f080029
 			public const int top = 2131230761;
@@ -4935,11 +6364,11 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int visible = 2131230900;
+			// aapt resource value: 0x7f0800bc
+			public const int visible = 2131230908;
 			
-			// aapt resource value: 0x7f080093
-			public const int volume_item_container = 2131230867;
+			// aapt resource value: 0x7f080096
+			public const int volume_item_container = 2131230870;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
@@ -5152,88 +6581,94 @@ namespace XamOffice.Droid
 			public const int design_text_input_password_icon = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int mr_chooser_dialog = 2130903081;
+			public const int dialog_color_picker = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int mr_chooser_list_item = 2130903082;
+			public const int mr_chooser_dialog = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int mr_controller_material_dialog_b = 2130903083;
+			public const int mr_chooser_list_item = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int mr_controller_volume_item = 2130903084;
+			public const int mr_controller_material_dialog_b = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int mr_playback_control = 2130903085;
+			public const int mr_controller_volume_item = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_volume_control = 2130903086;
+			public const int mr_playback_control = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_action = 2130903087;
+			public const int mr_volume_control = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_action_tombstone = 2130903088;
+			public const int notification_action = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_media_action = 2130903089;
+			public const int notification_action_tombstone = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_media_cancel_action = 2130903090;
+			public const int notification_media_action = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_big_media = 2130903091;
+			public const int notification_media_cancel_action = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media_custom = 2130903092;
+			public const int notification_template_big_media = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_narrow = 2130903093;
+			public const int notification_template_big_media_custom = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media_narrow_custom = 2130903094;
+			public const int notification_template_big_media_narrow = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_custom_big = 2130903095;
+			public const int notification_template_big_media_narrow_custom = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_icon_group = 2130903096;
+			public const int notification_template_custom_big = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_lines_media = 2130903097;
+			public const int notification_template_icon_group = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_media = 2130903098;
+			public const int notification_template_lines_media = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_media_custom = 2130903099;
+			public const int notification_template_media = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_part_chronometer = 2130903100;
+			public const int notification_template_media_custom = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_part_time = 2130903101;
+			public const int notification_template_part_chronometer = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int ScrollViewer = 2130903102;
+			public const int notification_template_part_time = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_item_material = 2130903103;
+			public const int ScrollViewer = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_multichoice_material = 2130903104;
+			public const int select_dialog_item_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int select_dialog_singlechoice_material = 2130903105;
+			public const int select_dialog_multichoice_material = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int support_simple_spinner_dropdown_item = 2130903106;
+			public const int select_dialog_singlechoice_material = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int Tabbar = 2130903107;
+			public const int support_simple_spinner_dropdown_item = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int Toolbar = 2130903108;
+			public const int Tabbar = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int TEditorActivity = 2130903109;
+			
+			// aapt resource value: 0x7f030046
+			public const int Toolbar = 2130903110;
 			
 			static Layout()
 			{
@@ -5241,6 +6676,22 @@ namespace XamOffice.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int TopToolbarMenu = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -5341,17 +6792,32 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f090027
 			public const int abc_toolbar_collapse_description = 2131296295;
 			
+			// aapt resource value: 0x7f09003e
+			public const int app_name = 2131296318;
+			
 			// aapt resource value: 0x7f090036
 			public const int appbar_scrolling_view_behavior = 2131296310;
 			
 			// aapt resource value: 0x7f090037
 			public const int bottom_sheet_behavior = 2131296311;
 			
+			// aapt resource value: 0x7f090042
+			public const int button_color_picker_alpha = 2131296322;
+			
+			// aapt resource value: 0x7f090041
+			public const int button_color_picker_noalpha = 2131296321;
+			
+			// aapt resource value: 0x7f090043
+			public const int button_color_picker_round = 2131296323;
+			
 			// aapt resource value: 0x7f090038
 			public const int character_counter_pattern = 2131296312;
 			
-			// aapt resource value: 0x7f09003e
-			public const int library_name = 2131296318;
+			// aapt resource value: 0x7f09003f
+			public const int dialog_color_picker = 2131296319;
+			
+			// aapt resource value: 0x7f090044
+			public const int library_name = 2131296324;
 			
 			// aapt resource value: 0x7f090000
 			public const int mr_button_content_description = 2131296256;
@@ -5431,6 +6897,9 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f09003d
 			public const int path_password_strike_through = 2131296317;
 			
+			// aapt resource value: 0x7f090040
+			public const int press_color_to_apply = 2131296320;
+			
 			// aapt resource value: 0x7f090028
 			public const int search_menu_title = 2131296296;
 			
@@ -5465,8 +6934,8 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f0b0170
 			public const int Animation_Design_BottomSheetDialog = 2131427696;
 			
-			// aapt resource value: 0x7f0b018b
-			public const int AppCompatDialogStyle = 2131427723;
+			// aapt resource value: 0x7f0b018c
+			public const int AppCompatDialogStyle = 2131427724;
 			
 			// aapt resource value: 0x7f0b00b2
 			public const int Base_AlertDialog_AppCompat = 2131427506;
@@ -5942,11 +7411,11 @@ namespace XamOffice.Droid
 			// aapt resource value: 0x7f0b000e
 			public const int CardView_Light = 2131427342;
 			
-			// aapt resource value: 0x7f0b0189
-			public const int MainTheme = 2131427721;
-			
 			// aapt resource value: 0x7f0b018a
-			public const int MainTheme_Base = 2131427722;
+			public const int MainTheme = 2131427722;
+			
+			// aapt resource value: 0x7f0b018b
+			public const int MainTheme_Base = 2131427723;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int Platform_AppCompat = 2131427373;
@@ -6319,6 +7788,9 @@ namespace XamOffice.Droid
 			
 			// aapt resource value: 0x7f0b011e
 			public const int Theme_AppCompat_NoActionBar = 2131427614;
+			
+			// aapt resource value: 0x7f0b0189
+			public const int Theme_AppCompat_NoActionBar_FullScreen = 2131427721;
 			
 			// aapt resource value: 0x7f0b017a
 			public const int Theme_Design = 2131427706;
